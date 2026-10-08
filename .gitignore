@@ -1,0 +1,11 @@
+node_modules/
+dist/
+.wrangler/
+.dev.vars
+.env
+*.env
+# Paid product files are generated locally and uploaded to private R2 storage; never commit them.
+products/out/
+__pycache__/
+*.pyc
+.DS_Store

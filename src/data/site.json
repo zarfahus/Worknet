@@ -1,0 +1,28 @@
+{
+  "brand": "WorkNest Studio",
+  "tagline": "Simple templates for better organized work.",
+  "footerLine": "Digital productivity templates and organizational tools",
+  "description": "WorkNest Studio creates practical digital templates that make everyday planning, meetings, projects and content organization easier. Our products are designed for individuals, freelancers and small businesses that want ready-to-use organizational tools without complicated software.",
+  "domain": "decoyclaw.com",
+  "url": "https://decoyclaw.com",
+  "email": "support@decoyclaw.com",
+  "phone": "+1 417 398 2273",
+  "phoneDisplay": "+1 (417) 398-2273",
+  "legalName": "",
+  "registrationNumber": "",
+  "address": {
+    "street": "775 W Evergreen Ave No. 332",
+    "city": "Palmer",
+    "region": "AK",
+    "postalCode": "99645",
+    "country": "United States",
+    "countryCode": "US"
+  },
+  "governingLaw": "the State of Alaska, United States",
+  "policiesUpdated": "2026-10-08",
+  "policiesUpdatedDisplay": "8 October 2026",
+  "paymentProcessor": {
+    "name": "Stripe",
+    "privacyUrl": "https://stripe.com/privacy"
+  }
+}

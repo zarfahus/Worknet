@@ -1,0 +1,123 @@
+{
+  "currency": "EUR",
+  "products": [
+    {
+      "slug": "weekly-focus-planner",
+      "name": "Weekly Focus Planner",
+      "price": 1299,
+      "description": "A practical weekly planning system for organizing priorities, tasks, appointments and weekly goals.",
+      "includes": [
+        "Weekly planning pages",
+        "Priority tracker",
+        "Daily task sections",
+        "Weekly review page",
+        "Goal-tracking worksheet"
+      ],
+      "formats": ["PDF", "DOCX"],
+      "bundledIn": ["complete-productivity-toolkit"],
+      "seo": {
+        "title": "Weekly Focus Planner Template (PDF & Editable DOCX)",
+        "description": "Printable and editable weekly planner template with priority tracker, daily task pages, weekly review and goal-tracking worksheet. One-time purchase, instant download."
+      }
+    },
+    {
+      "slug": "meeting-notes-action-tracker",
+      "name": "Meeting Notes & Action Tracker",
+      "price": 1299,
+      "description": "A structured meeting documentation toolkit for recording discussions, decisions, action items and follow-ups.",
+      "includes": [
+        "Meeting notes template",
+        "Agenda template",
+        "Decision tracker",
+        "Action-item tracker",
+        "Follow-up page"
+      ],
+      "formats": ["PDF", "DOCX"],
+      "bundledIn": ["complete-productivity-toolkit"],
+      "seo": {
+        "title": "Meeting Notes Template & Action Item Tracker (PDF & DOCX)",
+        "description": "Meeting notes template with agenda, decision tracker, action-item tracker and follow-up page. Printable PDF and editable DOCX. One-time purchase, instant download."
+      }
+    },
+    {
+      "slug": "content-planning-calendar",
+      "name": "Content Planning Calendar",
+      "price": 1299,
+      "description": "A simple 90-day planning system for organizing content ideas, publishing schedules and campaign tasks.",
+      "includes": [
+        "90-day calendar",
+        "Content idea worksheet",
+        "Publishing tracker",
+        "Campaign planning sheet",
+        "Content review worksheet"
+      ],
+      "formats": ["PDF", "XLSX"],
+      "bundledIn": [],
+      "seo": {
+        "title": "90-Day Content Planning Calendar Template (PDF & XLSX)",
+        "description": "Content planning template with a 90-day calendar, idea worksheet, publishing tracker, campaign planning sheet and review worksheet. Printable PDF and editable spreadsheet."
+      }
+    },
+    {
+      "slug": "complete-productivity-toolkit",
+      "name": "Complete Productivity Toolkit",
+      "price": 1999,
+      "description": "A comprehensive collection of WorkNest Studio planning and organization templates.",
+      "includes": [
+        "Weekly Focus Planner",
+        "Meeting Notes & Action Tracker",
+        "Priority planner",
+        "Project task tracker",
+        "Weekly review system",
+        "Personal workflow planner"
+      ],
+      "formats": ["PDF", "DOCX", "XLSX"],
+      "contains": ["weekly-focus-planner", "meeting-notes-action-tracker"],
+      "bundledIn": [],
+      "seo": {
+        "title": "Complete Productivity Toolkit – Planner, Meeting & Project Templates",
+        "description": "Digital productivity toolkit with the Weekly Focus Planner, Meeting Notes & Action Tracker, priority planner, project task tracker, weekly review system and workflow planner."
+      }
+    },
+    {
+      "slug": "small-business-workflow-toolkit",
+      "name": "Small Business Workflow Toolkit",
+      "price": 1999,
+      "description": "An organizational toolkit for documenting recurring workflows, responsibilities, task sequences and routine business operations.",
+      "includes": [
+        "Workflow planning sheet",
+        "Recurring task tracker",
+        "Process documentation worksheet",
+        "Responsibility tracker",
+        "Weekly operations planner",
+        "Task review sheet"
+      ],
+      "formats": ["PDF", "DOCX", "XLSX"],
+      "bundledIn": [],
+      "seo": {
+        "title": "Small Business Workflow Templates – Process & Task Tracker Toolkit",
+        "description": "Workflow template toolkit for small businesses: workflow planning sheet, recurring task tracker, process documentation worksheet, responsibility tracker and weekly operations planner."
+      }
+    },
+    {
+      "slug": "creator-planning-bundle",
+      "name": "Creator Planning Bundle",
+      "price": 1999,
+      "description": "A practical planning bundle for creators who need a simple way to organize content projects and publishing workflows.",
+      "includes": [
+        "Content calendar",
+        "Content idea planner",
+        "Production checklist",
+        "Publishing tracker",
+        "Campaign planner",
+        "Content performance notes"
+      ],
+      "formats": ["PDF", "DOCX", "XLSX"],
+      "bundledIn": [],
+      "seo": {
+        "title": "Creator Planning Bundle – Content Calendar & Publishing Templates",
+        "description": "Content planning templates for creators: content calendar, idea planner, production checklist, publishing tracker, campaign planner and performance notes."
+      }
+    }
+  ]
+}

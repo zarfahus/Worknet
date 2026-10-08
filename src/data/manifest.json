@@ -1,0 +1,434 @@
+{
+  "version": "1.0",
+  "files": {
+    "wfp-pdf": {
+      "filename": "WorkNest-Weekly-Focus-Planner.pdf",
+      "format": "PDF",
+      "label": "Weekly Focus Planner: Printable PDF, A4, 13 pages",
+      "pages": 13,
+      "key": "files/WorkNest-Weekly-Focus-Planner.pdf",
+      "bytes": 80038,
+      "contentType": "application/pdf",
+      "sha256": "1483a6fb6723adf481124602c99eeeb011d8e797bd4910de8775c167a5e4a2e5"
+    },
+    "wfp-docx": {
+      "filename": "WorkNest-Weekly-Focus-Planner.docx",
+      "format": "DOCX",
+      "label": "Weekly Focus Planner: Editable Word document (DOCX)",
+      "pages": null,
+      "key": "files/WorkNest-Weekly-Focus-Planner.docx",
+      "bytes": 47206,
+      "contentType": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+      "sha256": "3fc9c44bbb1a9140fae0f16904db518beb86f3f0d0597bacce067217adc786c6"
+    },
+    "mna-pdf": {
+      "filename": "WorkNest-Meeting-Notes-Action-Tracker.pdf",
+      "format": "PDF",
+      "label": "Meeting Notes & Action Tracker: Printable PDF, A4, 8 pages",
+      "pages": 8,
+      "key": "files/WorkNest-Meeting-Notes-Action-Tracker.pdf",
+      "bytes": 54886,
+      "contentType": "application/pdf",
+      "sha256": "efe9cc9d08438c36007d6a93cea8e511359ac854b1de5a253cb96ed32843f6af"
+    },
+    "mna-docx": {
+      "filename": "WorkNest-Meeting-Notes-Action-Tracker.docx",
+      "format": "DOCX",
+      "label": "Meeting Notes & Action Tracker: Editable Word document (DOCX)",
+      "pages": null,
+      "key": "files/WorkNest-Meeting-Notes-Action-Tracker.docx",
+      "bytes": 45513,
+      "contentType": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+      "sha256": "d822a217aef9e9a315f5ee5f60a569e2d29b0bab7f10cecf56a6cb067f8e51fa"
+    },
+    "cpc-pdf": {
+      "filename": "WorkNest-Content-Planning-Calendar.pdf",
+      "format": "PDF",
+      "label": "Content Planning Calendar: Printable PDF, A4, 10 pages",
+      "pages": 10,
+      "key": "files/WorkNest-Content-Planning-Calendar.pdf",
+      "bytes": 56266,
+      "contentType": "application/pdf",
+      "sha256": "d38710198825083d2de79e59216a1ff75a8d9d3da9de7cf60894d735b22d5702"
+    },
+    "cpt-pdf": {
+      "filename": "WorkNest-Productivity-Toolkit-Planners.pdf",
+      "format": "PDF",
+      "label": "Productivity Toolkit Planners: Printable PDF, A4, 9 pages",
+      "pages": 9,
+      "key": "files/WorkNest-Productivity-Toolkit-Planners.pdf",
+      "bytes": 58406,
+      "contentType": "application/pdf",
+      "sha256": "07438a4b3f178b624507b6b00e2fa7b62f67c9c99f98bd0b2190d0eff09a2e65"
+    },
+    "cpt-docx": {
+      "filename": "WorkNest-Productivity-Toolkit-Planners.docx",
+      "format": "DOCX",
+      "label": "Productivity Toolkit Planners: Editable Word document (DOCX)",
+      "pages": null,
+      "key": "files/WorkNest-Productivity-Toolkit-Planners.docx",
+      "bytes": 46945,
+      "contentType": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+      "sha256": "6d52502fbd675b9b5c50ab9fcace4e45ee2fb7b10dbae7ab76604ba7c116dcd9"
+    },
+    "sbw-pdf": {
+      "filename": "WorkNest-Small-Business-Workflow-Toolkit.pdf",
+      "format": "PDF",
+      "label": "Small Business Workflow Toolkit: Printable PDF, A4, 9 pages",
+      "pages": 9,
+      "key": "files/WorkNest-Small-Business-Workflow-Toolkit.pdf",
+      "bytes": 61608,
+      "contentType": "application/pdf",
+      "sha256": "47609ae636595f0b7cc1a2d9c7594422ae262295ed7c7b01641347f851471749"
+    },
+    "sbw-docx": {
+      "filename": "WorkNest-Small-Business-Workflow-Toolkit.docx",
+      "format": "DOCX",
+      "label": "Small Business Workflow Toolkit: Editable Word document (DOCX)",
+      "pages": null,
+      "key": "files/WorkNest-Small-Business-Workflow-Toolkit.docx",
+      "bytes": 47065,
+      "contentType": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+      "sha256": "d3c4d4bb18110c42073a6e023559225ff42fb5bcd13d3486cda00322c33f9423"
+    },
+    "cpb-pdf": {
+      "filename": "WorkNest-Creator-Planning-Bundle.pdf",
+      "format": "PDF",
+      "label": "Creator Planning Bundle: Printable PDF, A4, 10 pages",
+      "pages": 10,
+      "key": "files/WorkNest-Creator-Planning-Bundle.pdf",
+      "bytes": 57303,
+      "contentType": "application/pdf",
+      "sha256": "7bea1eeadc47b7c16e3cbe848a98916119d1b18155ba5e5c91922e4ee054db35"
+    },
+    "cpb-docx": {
+      "filename": "WorkNest-Creator-Planning-Bundle.docx",
+      "format": "DOCX",
+      "label": "Creator Planning Bundle: Editable Word document (DOCX)",
+      "pages": null,
+      "key": "files/WorkNest-Creator-Planning-Bundle.docx",
+      "bytes": 46084,
+      "contentType": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+      "sha256": "d45ea17df014c1ec1e674035e17344879fef2bd0adaf2bd254a8261833026ba7"
+    },
+    "cpc-xlsx": {
+      "filename": "WorkNest-Content-Planning-Calendar.xlsx",
+      "format": "XLSX",
+      "label": "Editable spreadsheet: 90-day calendar with automatic dates, idea list, publishing tracker, campaign plan and review sheet",
+      "pages": null,
+      "key": "files/WorkNest-Content-Planning-Calendar.xlsx",
+      "bytes": 27514,
+      "contentType": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+      "sha256": "d3f725ce1c4a525647dd454732463f458dfaaa363da5c7fa647659483eab2254"
+    },
+    "cpt-xlsx": {
+      "filename": "WorkNest-Productivity-Toolkit-Trackers.xlsx",
+      "format": "XLSX",
+      "label": "Editable spreadsheet: priorities, project tasks, action items, decisions, weekly review log and ideal week",
+      "pages": null,
+      "key": "files/WorkNest-Productivity-Toolkit-Trackers.xlsx",
+      "bytes": 29664,
+      "contentType": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+      "sha256": "778f3d55725ced738db12fb6b376d4ca4826bab0df53b9b390f728834ddd6fb5"
+    },
+    "sbw-xlsx": {
+      "filename": "WorkNest-Small-Business-Workflow-Trackers.xlsx",
+      "format": "XLSX",
+      "label": "Editable spreadsheet: workflow steps, recurring tasks with next-due dates, responsibilities, weekly operations, task review and change log",
+      "pages": null,
+      "key": "files/WorkNest-Small-Business-Workflow-Trackers.xlsx",
+      "bytes": 27580,
+      "contentType": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+      "sha256": "525e8226503c7c6006256acb02dd8f6d33cae24a7fed42efab1579f0c93d04e7"
+    },
+    "cpb-xlsx": {
+      "filename": "WorkNest-Creator-Planning-Trackers.xlsx",
+      "format": "XLSX",
+      "label": "Editable spreadsheet: content calendar, idea bank, production checklist, publishing tracker, campaigns and performance log",
+      "pages": null,
+      "key": "files/WorkNest-Creator-Planning-Trackers.xlsx",
+      "bytes": 35181,
+      "contentType": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+      "sha256": "eb1a1043c94f2077684e796668ef8e2234d0c7e01899dba288817a30d3c2ca0d"
+    },
+    "weekly-focus-planner-zip": {
+      "filename": "WorkNest-WeeklyFocusPlanner.zip",
+      "format": "ZIP",
+      "label": "All files for this product in one ZIP archive",
+      "pages": null,
+      "key": "zips/WorkNest-WeeklyFocusPlanner.zip",
+      "bytes": 106570,
+      "contentType": "application/zip",
+      "sha256": "71b964e8e4ae9d8c47ba2ae182b0c107ecc9d98d930eb152268ffda66f2b6e76"
+    },
+    "meeting-notes-action-tracker-zip": {
+      "filename": "WorkNest-MeetingNotesActionTracker.zip",
+      "format": "ZIP",
+      "label": "All files for this product in one ZIP archive",
+      "pages": null,
+      "key": "zips/WorkNest-MeetingNotesActionTracker.zip",
+      "bytes": 89294,
+      "contentType": "application/zip",
+      "sha256": "0ff99e3f2dad97226c548edd4caae4fe22f83d8571b3a5491884bc662e9530c0"
+    },
+    "content-planning-calendar-zip": {
+      "filename": "WorkNest-ContentPlanningCalendar.zip",
+      "format": "ZIP",
+      "label": "All files for this product in one ZIP archive",
+      "pages": null,
+      "key": "zips/WorkNest-ContentPlanningCalendar.zip",
+      "bytes": 67719,
+      "contentType": "application/zip",
+      "sha256": "849e92f8c801d288d4ed5314e709f3f7d80f4ad693d597ce80ec5b4a46edecfb"
+    },
+    "complete-productivity-toolkit-zip": {
+      "filename": "WorkNest-CompleteProductivityToolkit.zip",
+      "format": "ZIP",
+      "label": "All files for this product in one ZIP archive",
+      "pages": null,
+      "key": "zips/WorkNest-CompleteProductivityToolkit.zip",
+      "bytes": 312062,
+      "contentType": "application/zip",
+      "sha256": "f6de13475c0ade6d662173e93f0cd36cd99f2ccf018b8bc646901a13d41e7eef"
+    },
+    "small-business-workflow-toolkit-zip": {
+      "filename": "WorkNest-SmallBusinessWorkflowToolkit.zip",
+      "format": "ZIP",
+      "label": "All files for this product in one ZIP archive",
+      "pages": null,
+      "key": "zips/WorkNest-SmallBusinessWorkflowToolkit.zip",
+      "bytes": 117402,
+      "contentType": "application/zip",
+      "sha256": "30c61fab9d7e1e77d4fe9869da4f49b73e3595261686669b3fa1a3956256cf8b"
+    },
+    "creator-planning-bundle-zip": {
+      "filename": "WorkNest-CreatorPlanningBundle.zip",
+      "format": "ZIP",
+      "label": "All files for this product in one ZIP archive",
+      "pages": null,
+      "key": "zips/WorkNest-CreatorPlanningBundle.zip",
+      "bytes": 117997,
+      "contentType": "application/zip",
+      "sha256": "c297d652594eb68fd5970fe068f74ecd6ab4b371d3ece70862b503353891fc8b"
+    }
+  },
+  "products": {
+    "weekly-focus-planner": {
+      "files": [
+        "wfp-pdf",
+        "wfp-docx"
+      ],
+      "zip": "weekly-focus-planner-zip",
+      "previews": [
+        {
+          "src": "/assets/previews/wfp-p1.webp",
+          "width": 636,
+          "height": 900,
+          "page": 1
+        },
+        {
+          "src": "/assets/previews/wfp-p3.webp",
+          "width": 636,
+          "height": 900,
+          "page": 3
+        },
+        {
+          "src": "/assets/previews/wfp-p5.webp",
+          "width": 636,
+          "height": 900,
+          "page": 5
+        },
+        {
+          "src": "/assets/previews/wfp-p12.webp",
+          "width": 636,
+          "height": 900,
+          "page": 12
+        }
+      ],
+      "image": "/assets/products/weekly-focus-planner.webp",
+      "ogImage": "/assets/products/weekly-focus-planner.jpg"
+    },
+    "meeting-notes-action-tracker": {
+      "files": [
+        "mna-pdf",
+        "mna-docx"
+      ],
+      "zip": "meeting-notes-action-tracker-zip",
+      "previews": [
+        {
+          "src": "/assets/previews/mna-p1.webp",
+          "width": 636,
+          "height": 900,
+          "page": 1
+        },
+        {
+          "src": "/assets/previews/mna-p3.webp",
+          "width": 636,
+          "height": 900,
+          "page": 3
+        },
+        {
+          "src": "/assets/previews/mna-p4.webp",
+          "width": 636,
+          "height": 900,
+          "page": 4
+        },
+        {
+          "src": "/assets/previews/mna-p7.webp",
+          "width": 900,
+          "height": 636,
+          "page": 7
+        }
+      ],
+      "image": "/assets/products/meeting-notes-action-tracker.webp",
+      "ogImage": "/assets/products/meeting-notes-action-tracker.jpg"
+    },
+    "content-planning-calendar": {
+      "files": [
+        "cpc-pdf",
+        "cpc-xlsx"
+      ],
+      "zip": "content-planning-calendar-zip",
+      "previews": [
+        {
+          "src": "/assets/previews/cpc-p1.webp",
+          "width": 636,
+          "height": 900,
+          "page": 1
+        },
+        {
+          "src": "/assets/previews/cpc-p3.webp",
+          "width": 636,
+          "height": 900,
+          "page": 3
+        },
+        {
+          "src": "/assets/previews/cpc-p6.webp",
+          "width": 900,
+          "height": 636,
+          "page": 6
+        },
+        {
+          "src": "/assets/previews/cpc-p8.webp",
+          "width": 900,
+          "height": 636,
+          "page": 8
+        }
+      ],
+      "image": "/assets/products/content-planning-calendar.webp",
+      "ogImage": "/assets/products/content-planning-calendar.jpg"
+    },
+    "complete-productivity-toolkit": {
+      "files": [
+        "wfp-pdf",
+        "wfp-docx",
+        "mna-pdf",
+        "mna-docx",
+        "cpt-pdf",
+        "cpt-docx",
+        "cpt-xlsx"
+      ],
+      "zip": "complete-productivity-toolkit-zip",
+      "previews": [
+        {
+          "src": "/assets/previews/cpt-p1.webp",
+          "width": 636,
+          "height": 900,
+          "page": 1
+        },
+        {
+          "src": "/assets/previews/cpt-p3.webp",
+          "width": 636,
+          "height": 900,
+          "page": 3
+        },
+        {
+          "src": "/assets/previews/cpt-p5.webp",
+          "width": 900,
+          "height": 636,
+          "page": 5
+        },
+        {
+          "src": "/assets/previews/cpt-p6.webp",
+          "width": 636,
+          "height": 900,
+          "page": 6
+        }
+      ],
+      "image": "/assets/products/complete-productivity-toolkit.webp",
+      "ogImage": "/assets/products/complete-productivity-toolkit.jpg"
+    },
+    "small-business-workflow-toolkit": {
+      "files": [
+        "sbw-pdf",
+        "sbw-docx",
+        "sbw-xlsx"
+      ],
+      "zip": "small-business-workflow-toolkit-zip",
+      "previews": [
+        {
+          "src": "/assets/previews/sbw-p1.webp",
+          "width": 636,
+          "height": 900,
+          "page": 1
+        },
+        {
+          "src": "/assets/previews/sbw-p3.webp",
+          "width": 636,
+          "height": 900,
+          "page": 3
+        },
+        {
+          "src": "/assets/previews/sbw-p5.webp",
+          "width": 636,
+          "height": 900,
+          "page": 5
+        },
+        {
+          "src": "/assets/previews/sbw-p7.webp",
+          "width": 900,
+          "height": 636,
+          "page": 7
+        }
+      ],
+      "image": "/assets/products/small-business-workflow-toolkit.webp",
+      "ogImage": "/assets/products/small-business-workflow-toolkit.jpg"
+    },
+    "creator-planning-bundle": {
+      "files": [
+        "cpb-pdf",
+        "cpb-docx",
+        "cpb-xlsx"
+      ],
+      "zip": "creator-planning-bundle-zip",
+      "previews": [
+        {
+          "src": "/assets/previews/cpb-p1.webp",
+          "width": 636,
+          "height": 900,
+          "page": 1
+        },
+        {
+          "src": "/assets/previews/cpb-p3.webp",
+          "width": 900,
+          "height": 636,
+          "page": 3
+        },
+        {
+          "src": "/assets/previews/cpb-p7.webp",
+          "width": 636,
+          "height": 900,
+          "page": 7
+        },
+        {
+          "src": "/assets/previews/cpb-p9.webp",
+          "width": 636,
+          "height": 900,
+          "page": 9
+        }
+      ],
+      "image": "/assets/products/creator-planning-bundle.webp",
+      "ogImage": "/assets/products/creator-planning-bundle.jpg"
+    }
+  }
+}

@@ -1,0 +1,15 @@
+# Cloudflare Pages configuration for WorkNest Studio.
+# Secrets (STRIPE_SECRET_KEY) are not stored here: set them with
+#   npx wrangler pages secret put STRIPE_SECRET_KEY --project-name worknest-studio
+name = "worknest-studio"
+pages_build_output_dir = "./dist"
+compatibility_date = "2025-09-01"
+
+# Private bucket holding the product files customers download after payment.
+[[r2_buckets]]
+binding = "FILES"
+bucket_name = "worknest-studio-files"
+
+[vars]
+# Set to "true" after enabling Stripe Tax in the Stripe dashboard to calculate VAT/sales tax at checkout.
+STRIPE_AUTOMATIC_TAX = "false"
