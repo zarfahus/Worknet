@@ -63,7 +63,7 @@ def weekly_focus_planner():
               Table([("Milestone", 4), ("Target date", 1.3), ("Done", 0.6, "check")], label="Milestones", rows=5),
               Table([("Week", 0.8), ("Week of", 1.1), ("Actions taken", 3.5), ("Progress", 0.9),
                      ("Notes / obstacles", 2.6)],
-                    label="Weekly progress", row_labels=[f"Week {i}" for i in range(1, 13)]),
+                    label="Weekly progress", row_labels=[f"Week {i}" for i in range(1, 13)], row_h=20),
               Lines(label="Reflections", min_lines=2, flex=1, docx_lines=3)],
              section="Goal-tracking worksheet"),
     ]
@@ -92,7 +92,7 @@ def meeting_notes_action_tracker():
              "Capture the discussion by topic. Record decisions and action items as they happen so nothing "
              "is lost after the meeting.",
              [Fields(["Meeting", "Date", "Attendees", "Note taker"]),
-              Table([("Topic", 1.2), ("Notes", 4)], label="Discussion notes", min_rows=10, flex=3, docx_rows=12),
+              Table([("Topic", 1.2), ("Notes", 4)], label="Discussion notes", min_rows=10, flex=3, docx_rows=10),
               Lines(label="Decisions made", lines=3, numbered=True),
               Table([("Action", 3.2), ("Owner", 1.2), ("Due", 0.9), ("Done", 0.5, "check")],
                     label="Action items", rows=5),
@@ -406,7 +406,7 @@ def creator_planning_bundle():
                               "Visuals, footage or assets listed", "Equipment and space ready",
                               "Permission for people, music or images checked"], label="Pre-production"),
                    Checklist(["Main content recorded or written", "Extra shots, images or examples captured",
-                              "Files backed up in two places", "Raw files named and organised"],
+                              "Files backed up in two places", "Raw files named and organized"],
                              label="Production")]),
               Row([Checklist(["Edited for clarity and length", "Captions or subtitles added",
                               "Cover image or thumbnail created", "Alt text written for images",

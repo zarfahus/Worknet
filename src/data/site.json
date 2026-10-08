@@ -20,9 +20,13 @@
   },
   "governingLaw": "the State of Alaska, United States",
   "policiesUpdated": "2026-10-08",
-  "policiesUpdatedDisplay": "8 October 2026",
+  "policiesUpdatedDisplay": "October 8, 2026",
   "paymentProcessor": {
     "name": "Stripe",
     "privacyUrl": "https://stripe.com/privacy"
-  }
+  },
+  "statementDescriptor": "WORKNEST STUDIO",
+  "sellerLocation": "Palmer, Alaska, United States",
+  "acceptedPayments": "Major credit and debit cards, including Visa, Mastercard, American Express and Discover",
+  "refundReportDays": 30
 }

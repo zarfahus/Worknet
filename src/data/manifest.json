@@ -4,12 +4,12 @@
     "wfp-pdf": {
       "filename": "WorkNest-Weekly-Focus-Planner.pdf",
       "format": "PDF",
-      "label": "Weekly Focus Planner: Printable PDF, A4, 13 pages",
+      "label": "Weekly Focus Planner: Printable PDF, US Letter, 13 pages",
       "pages": 13,
       "key": "files/WorkNest-Weekly-Focus-Planner.pdf",
-      "bytes": 80038,
+      "bytes": 77205,
       "contentType": "application/pdf",
-      "sha256": "1483a6fb6723adf481124602c99eeeb011d8e797bd4910de8775c167a5e4a2e5"
+      "sha256": "c5ef8bb28ad86e94203c67e6d730329b31639edb68573a8793d81d03310a95af"
     },
     "wfp-docx": {
       "filename": "WorkNest-Weekly-Focus-Planner.docx",
@@ -17,19 +17,19 @@
       "label": "Weekly Focus Planner: Editable Word document (DOCX)",
       "pages": null,
       "key": "files/WorkNest-Weekly-Focus-Planner.docx",
-      "bytes": 47206,
+      "bytes": 47238,
       "contentType": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
-      "sha256": "3fc9c44bbb1a9140fae0f16904db518beb86f3f0d0597bacce067217adc786c6"
+      "sha256": "9b3a8530924b4d0184e4f0c4dc025e5438e569a27e9995776c36aac941e81767"
     },
     "mna-pdf": {
       "filename": "WorkNest-Meeting-Notes-Action-Tracker.pdf",
       "format": "PDF",
-      "label": "Meeting Notes & Action Tracker: Printable PDF, A4, 8 pages",
+      "label": "Meeting Notes & Action Tracker: Printable PDF, US Letter, 8 pages",
       "pages": 8,
       "key": "files/WorkNest-Meeting-Notes-Action-Tracker.pdf",
-      "bytes": 54886,
+      "bytes": 54037,
       "contentType": "application/pdf",
-      "sha256": "efe9cc9d08438c36007d6a93cea8e511359ac854b1de5a253cb96ed32843f6af"
+      "sha256": "560df4b0ea404a897f8272a81003ab1107b085440f040196414b96fe71c129bc"
     },
     "mna-docx": {
       "filename": "WorkNest-Meeting-Notes-Action-Tracker.docx",
@@ -37,29 +37,29 @@
       "label": "Meeting Notes & Action Tracker: Editable Word document (DOCX)",
       "pages": null,
       "key": "files/WorkNest-Meeting-Notes-Action-Tracker.docx",
-      "bytes": 45513,
+      "bytes": 45519,
       "contentType": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
-      "sha256": "d822a217aef9e9a315f5ee5f60a569e2d29b0bab7f10cecf56a6cb067f8e51fa"
+      "sha256": "d4d9f0bc903148e851a974b909c2e91bcf56cf7536cb795b379ee393fa916695"
     },
     "cpc-pdf": {
       "filename": "WorkNest-Content-Planning-Calendar.pdf",
       "format": "PDF",
-      "label": "Content Planning Calendar: Printable PDF, A4, 10 pages",
+      "label": "Content Planning Calendar: Printable PDF, US Letter, 10 pages",
       "pages": 10,
       "key": "files/WorkNest-Content-Planning-Calendar.pdf",
-      "bytes": 56266,
+      "bytes": 55113,
       "contentType": "application/pdf",
-      "sha256": "d38710198825083d2de79e59216a1ff75a8d9d3da9de7cf60894d735b22d5702"
+      "sha256": "0a3da6acf3967d58b7507168cd5ed86bc13d85ca14612fbf79618fee6aa6f4b7"
     },
     "cpt-pdf": {
       "filename": "WorkNest-Productivity-Toolkit-Planners.pdf",
       "format": "PDF",
-      "label": "Productivity Toolkit Planners: Printable PDF, A4, 9 pages",
+      "label": "Productivity Toolkit Planners: Printable PDF, US Letter, 9 pages",
       "pages": 9,
       "key": "files/WorkNest-Productivity-Toolkit-Planners.pdf",
-      "bytes": 58406,
+      "bytes": 56948,
       "contentType": "application/pdf",
-      "sha256": "07438a4b3f178b624507b6b00e2fa7b62f67c9c99f98bd0b2190d0eff09a2e65"
+      "sha256": "eed71bc32c1b65ece2ff890f7378d6cccb089c2043c5cde431d647ed2345d8c6"
     },
     "cpt-docx": {
       "filename": "WorkNest-Productivity-Toolkit-Planners.docx",
@@ -67,19 +67,19 @@
       "label": "Productivity Toolkit Planners: Editable Word document (DOCX)",
       "pages": null,
       "key": "files/WorkNest-Productivity-Toolkit-Planners.docx",
-      "bytes": 46945,
+      "bytes": 46968,
       "contentType": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
-      "sha256": "6d52502fbd675b9b5c50ab9fcace4e45ee2fb7b10dbae7ab76604ba7c116dcd9"
+      "sha256": "400f55ee9cd3bb0ddc99f7d36ba19d732c181e01626e045e8f7c86ef36fee8cd"
     },
     "sbw-pdf": {
       "filename": "WorkNest-Small-Business-Workflow-Toolkit.pdf",
       "format": "PDF",
-      "label": "Small Business Workflow Toolkit: Printable PDF, A4, 9 pages",
+      "label": "Small Business Workflow Toolkit: Printable PDF, US Letter, 9 pages",
       "pages": 9,
       "key": "files/WorkNest-Small-Business-Workflow-Toolkit.pdf",
-      "bytes": 61608,
+      "bytes": 60558,
       "contentType": "application/pdf",
-      "sha256": "47609ae636595f0b7cc1a2d9c7594422ae262295ed7c7b01641347f851471749"
+      "sha256": "54f0bc28f5912053bfe57474d2dc085b4af768224aed446e14ca1c29225f4072"
     },
     "sbw-docx": {
       "filename": "WorkNest-Small-Business-Workflow-Toolkit.docx",
@@ -87,19 +87,19 @@
       "label": "Small Business Workflow Toolkit: Editable Word document (DOCX)",
       "pages": null,
       "key": "files/WorkNest-Small-Business-Workflow-Toolkit.docx",
-      "bytes": 47065,
+      "bytes": 47075,
       "contentType": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
-      "sha256": "d3c4d4bb18110c42073a6e023559225ff42fb5bcd13d3486cda00322c33f9423"
+      "sha256": "9039381c6b95020c156cb6beb07a82eb81bd91e571bf05b775c7acfc99a61523"
     },
     "cpb-pdf": {
       "filename": "WorkNest-Creator-Planning-Bundle.pdf",
       "format": "PDF",
-      "label": "Creator Planning Bundle: Printable PDF, A4, 10 pages",
+      "label": "Creator Planning Bundle: Printable PDF, US Letter, 10 pages",
       "pages": 10,
       "key": "files/WorkNest-Creator-Planning-Bundle.pdf",
-      "bytes": 57303,
+      "bytes": 56293,
       "contentType": "application/pdf",
-      "sha256": "7bea1eeadc47b7c16e3cbe848a98916119d1b18155ba5e5c91922e4ee054db35"
+      "sha256": "d4ceeaaff61b1972eaa2a24bb15623a6fa3049e37c4300a0c97bab1656c21aae"
     },
     "cpb-docx": {
       "filename": "WorkNest-Creator-Planning-Bundle.docx",
@@ -107,9 +107,9 @@
       "label": "Creator Planning Bundle: Editable Word document (DOCX)",
       "pages": null,
       "key": "files/WorkNest-Creator-Planning-Bundle.docx",
-      "bytes": 46084,
+      "bytes": 46098,
       "contentType": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
-      "sha256": "d45ea17df014c1ec1e674035e17344879fef2bd0adaf2bd254a8261833026ba7"
+      "sha256": "d650cf4b0b0cea39363a7ea215d05c9a403c9d4157b844d6d5fc04a87e635a14"
     },
     "cpc-xlsx": {
       "filename": "WorkNest-Content-Planning-Calendar.xlsx",
@@ -117,9 +117,9 @@
       "label": "Editable spreadsheet: 90-day calendar with automatic dates, idea list, publishing tracker, campaign plan and review sheet",
       "pages": null,
       "key": "files/WorkNest-Content-Planning-Calendar.xlsx",
-      "bytes": 27514,
+      "bytes": 27506,
       "contentType": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
-      "sha256": "d3f725ce1c4a525647dd454732463f458dfaaa363da5c7fa647659483eab2254"
+      "sha256": "db03dbcf55638a0c24742cdfac98af4050a65ec26884129bad331f2e062e648f"
     },
     "cpt-xlsx": {
       "filename": "WorkNest-Productivity-Toolkit-Trackers.xlsx",
@@ -127,9 +127,9 @@
       "label": "Editable spreadsheet: priorities, project tasks, action items, decisions, weekly review log and ideal week",
       "pages": null,
       "key": "files/WorkNest-Productivity-Toolkit-Trackers.xlsx",
-      "bytes": 29664,
+      "bytes": 29656,
       "contentType": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
-      "sha256": "778f3d55725ced738db12fb6b376d4ca4826bab0df53b9b390f728834ddd6fb5"
+      "sha256": "f4248c8466316aa3b63eceb81996e87a31f252e62c874829f4ac082e89904e4f"
     },
     "sbw-xlsx": {
       "filename": "WorkNest-Small-Business-Workflow-Trackers.xlsx",
@@ -137,9 +137,9 @@
       "label": "Editable spreadsheet: workflow steps, recurring tasks with next-due dates, responsibilities, weekly operations, task review and change log",
       "pages": null,
       "key": "files/WorkNest-Small-Business-Workflow-Trackers.xlsx",
-      "bytes": 27580,
+      "bytes": 27573,
       "contentType": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
-      "sha256": "525e8226503c7c6006256acb02dd8f6d33cae24a7fed42efab1579f0c93d04e7"
+      "sha256": "87265ca302a672f9f5def0feb484780d6717250d15da872e9d5d533bf57ddc7b"
     },
     "cpb-xlsx": {
       "filename": "WorkNest-Creator-Planning-Trackers.xlsx",
@@ -147,9 +147,9 @@
       "label": "Editable spreadsheet: content calendar, idea bank, production checklist, publishing tracker, campaigns and performance log",
       "pages": null,
       "key": "files/WorkNest-Creator-Planning-Trackers.xlsx",
-      "bytes": 35181,
+      "bytes": 35175,
       "contentType": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
-      "sha256": "eb1a1043c94f2077684e796668ef8e2234d0c7e01899dba288817a30d3c2ca0d"
+      "sha256": "83ca6b018460bd4912ee7a97bbe38f74cffdb9fcf9596e0cbcbdc8d119e203b2"
     },
     "weekly-focus-planner-zip": {
       "filename": "WorkNest-WeeklyFocusPlanner.zip",
@@ -157,9 +157,9 @@
       "label": "All files for this product in one ZIP archive",
       "pages": null,
       "key": "zips/WorkNest-WeeklyFocusPlanner.zip",
-      "bytes": 106570,
+      "bytes": 102996,
       "contentType": "application/zip",
-      "sha256": "71b964e8e4ae9d8c47ba2ae182b0c107ecc9d98d930eb152268ffda66f2b6e76"
+      "sha256": "3894333fc92325155767a4a46b477d0f68e4c39ba56cf8d1525523a5e22a9a83"
     },
     "meeting-notes-action-tracker-zip": {
       "filename": "WorkNest-MeetingNotesActionTracker.zip",
@@ -167,9 +167,9 @@
       "label": "All files for this product in one ZIP archive",
       "pages": null,
       "key": "zips/WorkNest-MeetingNotesActionTracker.zip",
-      "bytes": 89294,
+      "bytes": 88727,
       "contentType": "application/zip",
-      "sha256": "0ff99e3f2dad97226c548edd4caae4fe22f83d8571b3a5491884bc662e9530c0"
+      "sha256": "8d213b5aa5b260950785ce056d48f90efe63b50c35b3a4b1274f03066780f4ef"
     },
     "content-planning-calendar-zip": {
       "filename": "WorkNest-ContentPlanningCalendar.zip",
@@ -177,9 +177,9 @@
       "label": "All files for this product in one ZIP archive",
       "pages": null,
       "key": "zips/WorkNest-ContentPlanningCalendar.zip",
-      "bytes": 67719,
+      "bytes": 67936,
       "contentType": "application/zip",
-      "sha256": "849e92f8c801d288d4ed5314e709f3f7d80f4ad693d597ce80ec5b4a46edecfb"
+      "sha256": "2437009d4d5974bea7a6c58151472e3e5140f41140bae9facce5e008e404d6e1"
     },
     "complete-productivity-toolkit-zip": {
       "filename": "WorkNest-CompleteProductivityToolkit.zip",
@@ -187,9 +187,9 @@
       "label": "All files for this product in one ZIP archive",
       "pages": null,
       "key": "zips/WorkNest-CompleteProductivityToolkit.zip",
-      "bytes": 312062,
+      "bytes": 306794,
       "contentType": "application/zip",
-      "sha256": "f6de13475c0ade6d662173e93f0cd36cd99f2ccf018b8bc646901a13d41e7eef"
+      "sha256": "09f3f9111f080a2ef02fa71ce0e4848ccf389c191aa15e8969b3d25d864a6793"
     },
     "small-business-workflow-toolkit-zip": {
       "filename": "WorkNest-SmallBusinessWorkflowToolkit.zip",
@@ -197,9 +197,9 @@
       "label": "All files for this product in one ZIP archive",
       "pages": null,
       "key": "zips/WorkNest-SmallBusinessWorkflowToolkit.zip",
-      "bytes": 117402,
+      "bytes": 116595,
       "contentType": "application/zip",
-      "sha256": "30c61fab9d7e1e77d4fe9869da4f49b73e3595261686669b3fa1a3956256cf8b"
+      "sha256": "a8cd35710f7855fb183e65dc6d7bb7aa91381962584886995411138a5afff721"
     },
     "creator-planning-bundle-zip": {
       "filename": "WorkNest-CreatorPlanningBundle.zip",
@@ -207,9 +207,9 @@
       "label": "All files for this product in one ZIP archive",
       "pages": null,
       "key": "zips/WorkNest-CreatorPlanningBundle.zip",
-      "bytes": 117997,
+      "bytes": 116838,
       "contentType": "application/zip",
-      "sha256": "c297d652594eb68fd5970fe068f74ecd6ab4b371d3ece70862b503353891fc8b"
+      "sha256": "26484d8a741e1ebe7a3c08602974bbbfeff03cac3c322f984c6e13b2d0a4d614"
     }
   },
   "products": {
@@ -222,25 +222,25 @@
       "previews": [
         {
           "src": "/assets/previews/wfp-p1.webp",
-          "width": 636,
+          "width": 695,
           "height": 900,
           "page": 1
         },
         {
           "src": "/assets/previews/wfp-p3.webp",
-          "width": 636,
+          "width": 695,
           "height": 900,
           "page": 3
         },
         {
           "src": "/assets/previews/wfp-p5.webp",
-          "width": 636,
+          "width": 695,
           "height": 900,
           "page": 5
         },
         {
           "src": "/assets/previews/wfp-p12.webp",
-          "width": 636,
+          "width": 695,
           "height": 900,
           "page": 12
         }
@@ -257,26 +257,26 @@
       "previews": [
         {
           "src": "/assets/previews/mna-p1.webp",
-          "width": 636,
+          "width": 695,
           "height": 900,
           "page": 1
         },
         {
           "src": "/assets/previews/mna-p3.webp",
-          "width": 636,
+          "width": 695,
           "height": 900,
           "page": 3
         },
         {
           "src": "/assets/previews/mna-p4.webp",
-          "width": 636,
+          "width": 695,
           "height": 900,
           "page": 4
         },
         {
           "src": "/assets/previews/mna-p7.webp",
           "width": 900,
-          "height": 636,
+          "height": 695,
           "page": 7
         }
       ],
@@ -292,26 +292,26 @@
       "previews": [
         {
           "src": "/assets/previews/cpc-p1.webp",
-          "width": 636,
+          "width": 695,
           "height": 900,
           "page": 1
         },
         {
           "src": "/assets/previews/cpc-p3.webp",
-          "width": 636,
+          "width": 695,
           "height": 900,
           "page": 3
         },
         {
           "src": "/assets/previews/cpc-p6.webp",
           "width": 900,
-          "height": 636,
+          "height": 695,
           "page": 6
         },
         {
           "src": "/assets/previews/cpc-p8.webp",
           "width": 900,
-          "height": 636,
+          "height": 695,
           "page": 8
         }
       ],
@@ -332,25 +332,25 @@
       "previews": [
         {
           "src": "/assets/previews/cpt-p1.webp",
-          "width": 636,
+          "width": 695,
           "height": 900,
           "page": 1
         },
         {
           "src": "/assets/previews/cpt-p3.webp",
-          "width": 636,
+          "width": 695,
           "height": 900,
           "page": 3
         },
         {
           "src": "/assets/previews/cpt-p5.webp",
           "width": 900,
-          "height": 636,
+          "height": 695,
           "page": 5
         },
         {
           "src": "/assets/previews/cpt-p6.webp",
-          "width": 636,
+          "width": 695,
           "height": 900,
           "page": 6
         }
@@ -368,26 +368,26 @@
       "previews": [
         {
           "src": "/assets/previews/sbw-p1.webp",
-          "width": 636,
+          "width": 695,
           "height": 900,
           "page": 1
         },
         {
           "src": "/assets/previews/sbw-p3.webp",
-          "width": 636,
+          "width": 695,
           "height": 900,
           "page": 3
         },
         {
           "src": "/assets/previews/sbw-p5.webp",
-          "width": 636,
+          "width": 695,
           "height": 900,
           "page": 5
         },
         {
           "src": "/assets/previews/sbw-p7.webp",
           "width": 900,
-          "height": 636,
+          "height": 695,
           "page": 7
         }
       ],
@@ -404,25 +404,25 @@
       "previews": [
         {
           "src": "/assets/previews/cpb-p1.webp",
-          "width": 636,
+          "width": 695,
           "height": 900,
           "page": 1
         },
         {
           "src": "/assets/previews/cpb-p3.webp",
           "width": 900,
-          "height": 636,
+          "height": 695,
           "page": 3
         },
         {
           "src": "/assets/previews/cpb-p7.webp",
-          "width": 636,
+          "width": 695,
           "height": 900,
           "page": 7
         },
         {
           "src": "/assets/previews/cpb-p9.webp",
-          "width": 636,
+          "width": 695,
           "height": 900,
           "page": 9
         }

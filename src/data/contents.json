@@ -1,0 +1,404 @@
+{
+  "weekly-focus-planner": {
+    "pdfs": [
+      {
+        "title": "Weekly Focus Planner",
+        "pages": 13,
+        "orientation": [
+          "landscape",
+          "portrait"
+        ],
+        "sections": [
+          {
+            "name": "Cover and contents",
+            "pages": "1"
+          },
+          {
+            "name": "How to use these templates",
+            "pages": "2"
+          },
+          {
+            "name": "Weekly planning page",
+            "pages": "3"
+          },
+          {
+            "name": "Priority Tracker",
+            "pages": "4"
+          },
+          {
+            "name": "Daily task pages (Monday to Sunday)",
+            "pages": "5–11"
+          },
+          {
+            "name": "Weekly review page",
+            "pages": "12"
+          },
+          {
+            "name": "Goal-tracking worksheet",
+            "pages": "13"
+          }
+        ],
+        "file": "WorkNest-Weekly-Focus-Planner.pdf"
+      }
+    ],
+    "workbooks": []
+  },
+  "meeting-notes-action-tracker": {
+    "pdfs": [
+      {
+        "title": "Meeting Notes & Action Tracker",
+        "pages": 8,
+        "orientation": [
+          "landscape",
+          "portrait"
+        ],
+        "sections": [
+          {
+            "name": "Cover and contents",
+            "pages": "1"
+          },
+          {
+            "name": "How to use these templates",
+            "pages": "2"
+          },
+          {
+            "name": "Agenda template",
+            "pages": "3"
+          },
+          {
+            "name": "Meeting notes template",
+            "pages": "4–5"
+          },
+          {
+            "name": "Decision Tracker",
+            "pages": "6"
+          },
+          {
+            "name": "Action-Item Tracker",
+            "pages": "7"
+          },
+          {
+            "name": "Follow-up page",
+            "pages": "8"
+          }
+        ],
+        "file": "WorkNest-Meeting-Notes-Action-Tracker.pdf"
+      }
+    ],
+    "workbooks": []
+  },
+  "content-planning-calendar": {
+    "pdfs": [
+      {
+        "title": "Content Planning Calendar",
+        "pages": 10,
+        "orientation": [
+          "landscape",
+          "portrait"
+        ],
+        "sections": [
+          {
+            "name": "Cover and contents",
+            "pages": "1"
+          },
+          {
+            "name": "How to use these templates",
+            "pages": "2"
+          },
+          {
+            "name": "90-day plan overview",
+            "pages": "3"
+          },
+          {
+            "name": "90-day calendar",
+            "pages": "4–6"
+          },
+          {
+            "name": "Content Idea Worksheet",
+            "pages": "7"
+          },
+          {
+            "name": "Publishing Tracker",
+            "pages": "8"
+          },
+          {
+            "name": "Campaign Planning Sheet",
+            "pages": "9"
+          },
+          {
+            "name": "Content Review Worksheet",
+            "pages": "10"
+          }
+        ],
+        "file": "WorkNest-Content-Planning-Calendar.pdf"
+      }
+    ],
+    "workbooks": [
+      {
+        "file": "WorkNest-Content-Planning-Calendar.xlsx",
+        "sheets": [
+          "Start Here",
+          "90-Day Calendar",
+          "Content Ideas",
+          "Publishing Tracker",
+          "Campaign Plan",
+          "Content Review"
+        ]
+      }
+    ]
+  },
+  "complete-productivity-toolkit": {
+    "pdfs": [
+      {
+        "title": "Weekly Focus Planner",
+        "pages": 13,
+        "orientation": [
+          "landscape",
+          "portrait"
+        ],
+        "sections": [
+          {
+            "name": "Cover and contents",
+            "pages": "1"
+          },
+          {
+            "name": "How to use these templates",
+            "pages": "2"
+          },
+          {
+            "name": "Weekly planning page",
+            "pages": "3"
+          },
+          {
+            "name": "Priority Tracker",
+            "pages": "4"
+          },
+          {
+            "name": "Daily task pages (Monday to Sunday)",
+            "pages": "5–11"
+          },
+          {
+            "name": "Weekly review page",
+            "pages": "12"
+          },
+          {
+            "name": "Goal-tracking worksheet",
+            "pages": "13"
+          }
+        ],
+        "file": "WorkNest-Weekly-Focus-Planner.pdf"
+      },
+      {
+        "title": "Meeting Notes & Action Tracker",
+        "pages": 8,
+        "orientation": [
+          "landscape",
+          "portrait"
+        ],
+        "sections": [
+          {
+            "name": "Cover and contents",
+            "pages": "1"
+          },
+          {
+            "name": "How to use these templates",
+            "pages": "2"
+          },
+          {
+            "name": "Agenda template",
+            "pages": "3"
+          },
+          {
+            "name": "Meeting notes template",
+            "pages": "4–5"
+          },
+          {
+            "name": "Decision Tracker",
+            "pages": "6"
+          },
+          {
+            "name": "Action-Item Tracker",
+            "pages": "7"
+          },
+          {
+            "name": "Follow-up page",
+            "pages": "8"
+          }
+        ],
+        "file": "WorkNest-Meeting-Notes-Action-Tracker.pdf"
+      },
+      {
+        "title": "Productivity Toolkit Planners",
+        "pages": 9,
+        "orientation": [
+          "landscape",
+          "portrait"
+        ],
+        "sections": [
+          {
+            "name": "Cover and contents",
+            "pages": "1"
+          },
+          {
+            "name": "How to use these templates",
+            "pages": "2"
+          },
+          {
+            "name": "Priority planner",
+            "pages": "3"
+          },
+          {
+            "name": "Project task tracker",
+            "pages": "4–5"
+          },
+          {
+            "name": "Weekly review system",
+            "pages": "6–7"
+          },
+          {
+            "name": "Personal workflow planner",
+            "pages": "8–9"
+          }
+        ],
+        "file": "WorkNest-Productivity-Toolkit-Planners.pdf"
+      }
+    ],
+    "workbooks": [
+      {
+        "file": "WorkNest-Productivity-Toolkit-Trackers.xlsx",
+        "sheets": [
+          "Start Here",
+          "Priorities",
+          "Project Tasks",
+          "Action Items",
+          "Decisions",
+          "Weekly Review Log",
+          "Ideal Week"
+        ]
+      }
+    ]
+  },
+  "small-business-workflow-toolkit": {
+    "pdfs": [
+      {
+        "title": "Small Business Workflow Toolkit",
+        "pages": 9,
+        "orientation": [
+          "landscape",
+          "portrait"
+        ],
+        "sections": [
+          {
+            "name": "Cover and contents",
+            "pages": "1"
+          },
+          {
+            "name": "How to use these templates",
+            "pages": "2"
+          },
+          {
+            "name": "Workflow planning sheet",
+            "pages": "3"
+          },
+          {
+            "name": "Recurring Task Tracker",
+            "pages": "4"
+          },
+          {
+            "name": "Process documentation worksheet",
+            "pages": "5–6"
+          },
+          {
+            "name": "Responsibility Tracker",
+            "pages": "7"
+          },
+          {
+            "name": "Weekly Operations Planner",
+            "pages": "8"
+          },
+          {
+            "name": "Task Review Sheet",
+            "pages": "9"
+          }
+        ],
+        "file": "WorkNest-Small-Business-Workflow-Toolkit.pdf"
+      }
+    ],
+    "workbooks": [
+      {
+        "file": "WorkNest-Small-Business-Workflow-Trackers.xlsx",
+        "sheets": [
+          "Start Here",
+          "Workflow Steps",
+          "Recurring Tasks",
+          "Responsibilities",
+          "Weekly Operations",
+          "Task Review",
+          "Change Log"
+        ]
+      }
+    ]
+  },
+  "creator-planning-bundle": {
+    "pdfs": [
+      {
+        "title": "Creator Planning Bundle",
+        "pages": 10,
+        "orientation": [
+          "landscape",
+          "portrait"
+        ],
+        "sections": [
+          {
+            "name": "Cover and contents",
+            "pages": "1"
+          },
+          {
+            "name": "How to use these templates",
+            "pages": "2"
+          },
+          {
+            "name": "Content calendar",
+            "pages": "3–5"
+          },
+          {
+            "name": "Content Idea Planner",
+            "pages": "6"
+          },
+          {
+            "name": "Production Checklist",
+            "pages": "7"
+          },
+          {
+            "name": "Publishing Tracker",
+            "pages": "8"
+          },
+          {
+            "name": "Campaign Planner",
+            "pages": "9"
+          },
+          {
+            "name": "Content Performance Notes",
+            "pages": "10"
+          }
+        ],
+        "file": "WorkNest-Creator-Planning-Bundle.pdf"
+      }
+    ],
+    "workbooks": [
+      {
+        "file": "WorkNest-Creator-Planning-Trackers.xlsx",
+        "sheets": [
+          "Start Here",
+          "Content Calendar",
+          "Idea Bank",
+          "Production Checklist",
+          "Publishing Tracker",
+          "Campaigns",
+          "Campaign Content",
+          "Performance Log"
+        ]
+      }
+    ]
+  }
+}

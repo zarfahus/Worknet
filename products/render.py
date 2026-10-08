@@ -7,13 +7,14 @@ from docx.oxml import OxmlElement
 from docx.oxml.ns import qn
 from docx.shared import Cm, Pt, RGBColor
 from PIL import Image, ImageDraw
-from reportlab.lib.pagesizes import A4, landscape
+from reportlab.lib.pagesizes import LETTER, landscape
 from reportlab.pdfgen import canvas
 
 import blocks as B
 from blocks import (FAINT, FILL, INK, MUTED, NAVY, RULE, TINT, WHITE, InfoBox, Note, Page, docx_new_page, layout,
                     spaced, sw, wrap)
 
+PAGE = LETTER  # US Letter, 8.5 x 11 in (the store sells to customers in the United States)
 M = 34  # page margin (pt)
 YEAR = dt.date.today().year
 SITE = {}  # filled in by generate.py from src/data/site.json
@@ -82,7 +83,7 @@ def _frame(c, W, H, doc_title, page_no):
 
 
 def draw_page(c, page, doc_title, page_no):
-    W, H = landscape(A4) if page.landscape else A4
+    W, H = landscape(PAGE) if page.landscape else PAGE
     c.setPageSize((W, H))
     _frame(c, W, H, doc_title, page_no)
     w = W - 2 * M
@@ -152,7 +153,7 @@ def _cover_illustration(c, x, y, w, h):
 
 
 def draw_cover(c, doc, contents):
-    W, H = A4
+    W, H = PAGE
     c.setPageSize((W, H))
     band_h = H * 0.44
     c.setFillColor(B.HexColor("#EEF1F6"))
@@ -201,8 +202,8 @@ def draw_cover(c, doc, contents):
 def how_to_page(doc):
     tips = [InfoBox("Getting started", doc.howto, cols=1)]
     tips.append(InfoBox("Printing", [
-        "Pages are A4. To print on US Letter paper, choose “Fit to page” or “Scale to fit” in "
-        "your print settings.",
+        "Pages are US Letter size (8.5 × 11 in). To print on A4 paper, choose “Fit to page” or “Scale to "
+        "fit” in your print settings.",
         "Print single pages as often as you need them, for example one daily page per day or one notes page "
         "per meeting.",
         "You can also fill in the PDF on a tablet or computer with any PDF app that supports annotations."]))
@@ -216,7 +217,7 @@ def how_to_page(doc):
                         "calculated automatically.")
     if editable:
         tips.append(InfoBox("Editable files", editable))
-    tips.append(InfoBox("Your licence", [
+    tips.append(InfoBox("Your license", [
         "You may use these templates for your own personal or internal business purposes, and edit them for "
         "your own use.",
         "Please do not resell, share or redistribute the files, or publish them as your own templates.",
@@ -224,7 +225,7 @@ def how_to_page(doc):
     tips.append(InfoBox("Need help?", [
         f"If a file will not open, is incomplete or does not match its description, email {SITE['email']} "
         "with your order reference and we will help."]))
-    tips.append(Note("These templates are organisational tools. They are not legal, financial, accounting, tax, "
+    tips.append(Note("These templates are organizational tools. They are not legal, financial, accounting, tax, "
                      "investment, medical or other professional advice."))
     return Page("How to use these templates", None, tips, section="How to use these templates")
 
@@ -236,7 +237,7 @@ def build_pdf(doc, path):
         if p.section not in seen:
             seen.add(p.section)
             contents.append((p.section, i + 2))
-    c = canvas.Canvas(path, pagesize=A4, pageCompression=1)
+    c = canvas.Canvas(path, pagesize=PAGE, pageCompression=1)
     c.setTitle(f"{doc.title} — WorkNest Studio")
     c.setAuthor("WorkNest Studio")
     c.setSubject(doc.subtitle)
@@ -272,7 +273,7 @@ def _page_number_field(paragraph):
 def _setup_docx(doc_title):
     d = DocxDocument()
     sec = d.sections[0]
-    sec.page_width, sec.page_height = Cm(21.0), Cm(29.7)
+    sec.page_width, sec.page_height = Cm(21.59), Cm(27.94)  # US Letter
     for s in d.sections:
         s.left_margin = s.right_margin = Cm(1.6)
         s.top_margin, s.bottom_margin = Cm(1.5), Cm(1.4)

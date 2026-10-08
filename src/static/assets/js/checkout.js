@@ -4,7 +4,9 @@
 
   const data = JSON.parse(document.getElementById("catalog-data").textContent);
   const bySlug = Object.fromEntries(data.products.map((p) => [p.slug, p]));
-  const money = new Intl.NumberFormat("en-IE", { style: "currency", currency: data.currency });
+  const fmt = new Intl.NumberFormat("en-US", { style: "currency", currency: data.currency });
+  // Show the currency code as well as the symbol, as on the rest of the site.
+  const money = { format: (amount) => `${fmt.format(amount)} ${data.currency}` };
   const cart = window.WorkNestCart;
 
   const $ = (id) => document.getElementById(id);
@@ -49,7 +51,7 @@
             "div",
             {},
             h("h3", {}, h("a", { href: `/products/${slug}/` }, p.name)),
-            h("div", { class: "sub" }, `Digital download · ${p.formats.join(", ")} · One-time purchase`)
+            h("div", { class: "sub" }, `Digital download (${p.formats.join(", ")}), one-time payment`)
           ),
           h("div", { class: "right" }, h("span", { class: "price" }, money.format(p.price / 100)), remove)
         );

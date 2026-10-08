@@ -13,3 +13,6 @@ bucket_name = "worknest-studio-files"
 [vars]
 # Set to "true" after enabling Stripe Tax in the Stripe dashboard to calculate VAT/sales tax at checkout.
 STRIPE_AUTOMATIC_TAX = "false"
+# Set to "true" after adding your Terms of Service URL in Stripe Dashboard > Settings > Public details,
+# to also show a required terms checkbox on the Stripe payment page.
+STRIPE_TOS_CONSENT = "false"

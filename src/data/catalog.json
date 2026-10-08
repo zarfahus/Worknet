@@ -1,5 +1,5 @@
 {
-  "currency": "EUR",
+  "currency": "USD",
   "products": [
     {
       "slug": "weekly-focus-planner",
@@ -13,12 +13,23 @@
         "Weekly review page",
         "Goal-tracking worksheet"
       ],
-      "formats": ["PDF", "DOCX"],
-      "bundledIn": ["complete-productivity-toolkit"],
+      "formats": [
+        "PDF",
+        "DOCX"
+      ],
+      "bundledIn": [
+        "complete-productivity-toolkit"
+      ],
       "seo": {
         "title": "Weekly Focus Planner Template (PDF & Editable DOCX)",
         "description": "Printable and editable weekly planner template with priority tracker, daily task pages, weekly review and goal-tracking worksheet. One-time purchase, instant download."
-      }
+      },
+      "intro": "A week-at-a-glance plan, a ranked priority list and a page for every day, finished with a short review at the end of the week. It gives you just enough structure to stay on top of a busy week without turning planning into a project of its own.",
+      "goodFor": [
+        "Freelancers and solo business owners",
+        "Anyone fitting focused work around appointments and deadlines",
+        "People who prefer planning on paper or a tablet to using an app"
+      ]
     },
     {
       "slug": "meeting-notes-action-tracker",
@@ -32,12 +43,23 @@
         "Action-item tracker",
         "Follow-up page"
       ],
-      "formats": ["PDF", "DOCX"],
-      "bundledIn": ["complete-productivity-toolkit"],
+      "formats": [
+        "PDF",
+        "DOCX"
+      ],
+      "bundledIn": [
+        "complete-productivity-toolkit"
+      ],
       "seo": {
         "title": "Meeting Notes Template & Action Item Tracker (PDF & DOCX)",
         "description": "Meeting notes template with agenda, decision tracker, action-item tracker and follow-up page. Printable PDF and editable DOCX. One-time purchase, instant download."
-      }
+      },
+      "intro": "Everything a meeting needs, from the agenda you send beforehand to the follow-up afterwards. Decisions and action items have their own running trackers, so they don't get lost in pages of notes.",
+      "goodFor": [
+        "Team leads who run regular meetings",
+        "Note takers, assistants and project coordinators",
+        "Small teams without a dedicated meeting tool"
+      ]
     },
     {
       "slug": "content-planning-calendar",
@@ -51,12 +73,21 @@
         "Campaign planning sheet",
         "Content review worksheet"
       ],
-      "formats": ["PDF", "XLSX"],
+      "formats": [
+        "PDF",
+        "XLSX"
+      ],
       "bundledIn": [],
       "seo": {
         "title": "90-Day Content Planning Calendar Template (PDF & XLSX)",
         "description": "Content planning template with a 90-day calendar, idea worksheet, publishing tracker, campaign planning sheet and review worksheet. Printable PDF and editable spreadsheet."
-      }
+      },
+      "intro": "Plan 90 days of content week by week, keep a running list of ideas, and follow each piece from draft to published. In the spreadsheet version, all 90 dates fill in as soon as you enter a start date.",
+      "goodFor": [
+        "Small businesses publishing a blog, newsletter or social posts",
+        "Marketers planning a quarter ahead",
+        "Anyone who wants a simple calendar instead of another platform"
+      ]
     },
     {
       "slug": "complete-productivity-toolkit",
@@ -71,13 +102,26 @@
         "Weekly review system",
         "Personal workflow planner"
       ],
-      "formats": ["PDF", "DOCX", "XLSX"],
-      "contains": ["weekly-focus-planner", "meeting-notes-action-tracker"],
+      "formats": [
+        "PDF",
+        "DOCX",
+        "XLSX"
+      ],
+      "contains": [
+        "weekly-focus-planner",
+        "meeting-notes-action-tracker"
+      ],
       "bundledIn": [],
       "seo": {
         "title": "Complete Productivity Toolkit – Planner, Meeting & Project Templates",
         "description": "Digital productivity toolkit with the Weekly Focus Planner, Meeting Notes & Action Tracker, priority planner, project task tracker, weekly review system and workflow planner."
-      }
+      },
+      "intro": "The full Weekly Focus Planner and the full Meeting Notes & Action Tracker, plus four more planners for priorities, projects, weekly reviews and your own working routine. A spreadsheet with ready-made trackers is included too.",
+      "goodFor": [
+        "Anyone who wants one consistent set of planning tools for work",
+        "Freelancers juggling several projects at once",
+        "People who want both the planner and the meeting kit, for less than buying them separately"
+      ]
     },
     {
       "slug": "small-business-workflow-toolkit",
@@ -92,12 +136,22 @@
         "Weekly operations planner",
         "Task review sheet"
       ],
-      "formats": ["PDF", "DOCX", "XLSX"],
+      "formats": [
+        "PDF",
+        "DOCX",
+        "XLSX"
+      ],
       "bundledIn": [],
       "seo": {
         "title": "Small Business Workflow Templates – Process & Task Tracker Toolkit",
         "description": "Workflow template toolkit for small businesses: workflow planning sheet, recurring task tracker, process documentation worksheet, responsibility tracker and weekly operations planner."
-      }
+      },
+      "intro": "Write down how recurring work gets done, who owns each part and when it's due. Helpful when you're hiring, delegating or simply tired of keeping every process in your head.",
+      "goodFor": [
+        "Owners of small businesses and small teams",
+        "Office and operations managers",
+        "Anyone handing work over to a new hire or an assistant"
+      ]
     },
     {
       "slug": "creator-planning-bundle",
@@ -112,12 +166,22 @@
         "Campaign planner",
         "Content performance notes"
       ],
-      "formats": ["PDF", "DOCX", "XLSX"],
+      "formats": [
+        "PDF",
+        "DOCX",
+        "XLSX"
+      ],
       "bundledIn": [],
       "seo": {
         "title": "Creator Planning Bundle – Content Calendar & Publishing Templates",
         "description": "Content planning templates for creators: content calendar, idea planner, production checklist, publishing tracker, campaign planner and performance notes."
-      }
+      },
+      "intro": "A monthly content calendar, an idea bank, a checklist for producing each piece and a tracker for everything you publish, plus a campaign planner for launches and a page for noting what works.",
+      "goodFor": [
+        "Independent creators publishing video, posts, podcasts or newsletters",
+        "Small brands planning launches and campaigns",
+        "Anyone keeping content organized across several platforms"
+      ]
     }
   ]
 }

@@ -40,8 +40,9 @@
   }
 
   function renderPaid(order) {
-    const money = new Intl.NumberFormat("en-IE", { style: "currency", currency: order.currency });
-    const created = new Date(order.created * 1000).toLocaleString("en-GB", { dateStyle: "long", timeStyle: "short" });
+    const fmt = new Intl.NumberFormat("en-US", { style: "currency", currency: order.currency });
+    const money = { format: (amount) => `${fmt.format(amount)} ${order.currency}` };
+    const created = new Date(order.created * 1000).toLocaleString("en-US", { dateStyle: "long", timeStyle: "short" });
     const products = order.items.map((item) =>
       h(
         "section",
@@ -84,7 +85,7 @@
           h("tr", {}, h("th", {}, "Date"), h("td", {}, created)),
           order.email ? h("tr", {}, h("th", {}, "Receipt sent to"), h("td", {}, order.email)) : null,
           h("tr", {}, h("th", {}, "Total paid"), h("td", {}, money.format(order.amountTotal / 100), order.amountTax ? ` (including ${money.format(order.amountTax / 100)} tax)` : "")),
-          h("tr", {}, h("th", {}, "Seller"), h("td", {}, `${order.seller} · one-time purchase of digital files`))
+          h("tr", {}, h("th", {}, "Seller"), h("td", {}, `${order.seller} (one-time purchase of digital files)`))
         )
       ),
       ...products,

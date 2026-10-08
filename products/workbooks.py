@@ -160,7 +160,7 @@ def tracker(ws, cols, n_rows, header_row=4, status_col=None, done=("Done",), wai
     ws.auto_filter.ref = f"A{header_row}:{last_letter}{last}"
     ws.print_title_rows = f"{header_row}:{header_row}"
     ws.page_setup.orientation = "landscape" if landscape else "portrait"
-    ws.page_setup.paperSize = ws.PAPERSIZE_A4
+    ws.page_setup.paperSize = ws.PAPERSIZE_LETTER
     ws.page_setup.fitToWidth = 1
     ws.page_setup.fitToHeight = 0
     ws.sheet_properties.pageSetUpPr.fitToPage = True
@@ -215,7 +215,7 @@ def start_here(wb, title, description, sheets, tips):
         c = ws.cell(row=r, column=2, value=t)
         c.alignment = Alignment(wrap_text=True, vertical="top")
     r += 2
-    ws.cell(row=r, column=1, value="Licence").font = Font(bold=True, color=NAVY, size=12)
+    ws.cell(row=r, column=1, value="License").font = Font(bold=True, color=NAVY, size=12)
     r += 1
     c = ws.cell(row=r, column=2, value=(
         "You may use and edit this workbook for your own personal or internal business purposes. Please do not "
@@ -229,7 +229,7 @@ def start_here(wb, title, description, sheets, tips):
         f"Questions or a problem with this file? Email {SITE['email']} with your order reference."))
     r += 2
     c = ws.cell(row=r, column=2, value=(
-        "This workbook is an organisational tool. It is not legal, financial, accounting, tax, investment, "
+        "This workbook is an organizational tool. It is not legal, financial, accounting, tax, investment, "
         "medical or other professional advice."))
     c.font = Font(italic=True, size=9, color=MUTED)
     c.alignment = Alignment(wrap_text=True)
@@ -286,7 +286,7 @@ def content_planning_calendar(path):
     start_here(wb, "Content Planning Calendar",
                "A 90-day system for planning content ideas, publishing schedules and campaign tasks.",
                [("90-Day Calendar", "Enter a start date and plan one piece of content per day or as often as suits you."),
-                ("Content Ideas", "Collect and prioritise ideas before they go into the calendar."),
+                ("Content Ideas", "Collect and prioritize ideas before they go into the calendar."),
                 ("Publishing Tracker", "Track each piece from draft to published, with due dates and links."),
                 ("Campaign Plan", "Plan one campaign: objective, audience, deliverables and tasks."),
                 ("Content Review", "Review published content and decide what to keep, change or stop.")],
@@ -399,7 +399,7 @@ def productivity_toolkit_trackers(path):
     ws.add_data_validation(dv)
     dv.add(f"E{first}:G{last}")
 
-    ws = new_sheet(wb, "Ideal Week", "Choose a category for each 30-minute slot. Colours update automatically.")
+    ws = new_sheet(wb, "Ideal Week", "Choose a category for each 30-minute slot. Colors update automatically.")
     days = ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"]
     cats = {"Focus": ("DCE5F5", NAVY), "Meetings": ("FCE8D5", "7A3E00"), "Admin": ("E9E7F7", "3F347A"),
             "Personal": ("E2F1E7", GOOD_FONT), "Break": ("F2F3F5", MUTED)}

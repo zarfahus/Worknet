@@ -17,9 +17,11 @@ const readJson = (p) => JSON.parse(readFileSync(join(ROOT, p), "utf8"));
 const site = readJson("src/data/site.json");
 const catalog = readJson("src/data/catalog.json");
 const manifest = readJson("src/data/manifest.json");
+const contents = readJson("src/data/contents.json");
 
 for (const p of catalog.products) {
   if (!manifest.products[p.slug]) throw new Error(`No generated files for ${p.slug}; run products/generate.py`);
+  if (!contents[p.slug]) throw new Error(`No contents for ${p.slug}; run scripts/product_contents.py`);
 }
 
 const hashes = new Map();
@@ -31,7 +33,7 @@ const asset = (path) => {
   return `${path}?v=${hashes.get(path)}`;
 };
 
-const ctx = { site, catalog, manifest, asset };
+const ctx = { site, catalog, manifest, contents, asset };
 
 rmSync(DIST, { recursive: true, force: true });
 mkdirSync(DIST, { recursive: true });
@@ -75,13 +77,19 @@ ${indexable.map((p) => `  <url><loc>${site.url}${p.path}</loc><lastmod>${today}<
 writeFileSync(
   join(DIST, "robots.txt"),
   `User-agent: *
-Disallow: /checkout/
 Disallow: /order/
 Disallow: /api/
 
 Sitemap: ${site.url}/sitemap.xml
 `
 );
+
+// HTML pages are marked no-transform so Cloudflare doesn't inject scripts (such as its analytics beacon)
+// into them: the site uses no analytics, as the Privacy and Cookie policies state.
+const htmlPaths = [...new Set(all.filter((p) => !p.path.startsWith("/products/") && p.path !== "/order/").map((p) => p.path)), "/products/*"];
+const htmlRules = htmlPaths
+  .map((path) => `${path}\n  Cache-Control: public, max-age=0, must-revalidate, no-transform\n`)
+  .join("\n");
 
 // Cloudflare Pages headers for static assets. (Functions set their own headers.)
 const csp = [
@@ -110,11 +118,12 @@ writeFileSync(
 /order/*
   X-Robots-Tag: noindex
   Referrer-Policy: no-referrer
-  Cache-Control: no-store
+  Cache-Control: no-store, no-transform
 
 /checkout/*
   X-Robots-Tag: noindex
 
+${htmlRules}
 /assets/css/*
   Cache-Control: public, max-age=31536000, immutable
 

@@ -25,7 +25,7 @@ export async function onRequestPost({ request, env }) {
 
   const items = Array.isArray(body?.items) ? [...new Set(body.items)] : [];
   if (!items.length || items.length > catalog.products.length || !items.every((s) => typeof s === "string" && PRODUCTS[s])) {
-    return errorJson(400, "invalid_items", "Your cart contains an item we don't recognise. Please refresh the page and try again.");
+    return errorJson(400, "invalid_items", "Your cart contains an item we don't recognize. Please refresh the page and try again.");
   }
   if (body.acceptTerms !== true || body.digitalConsent !== true) {
     return errorJson(400, "consent_required", "Please confirm both statements before continuing to payment.");
@@ -76,6 +76,16 @@ export async function onRequestPost({ request, env }) {
       },
     },
     ...(automaticTax ? { automatic_tax: { enabled: true } } : {}),
+    // Also show a terms checkbox on Stripe's page. Needs the Terms URL set in Stripe Dashboard > Public details.
+    ...(env.STRIPE_TOS_CONSENT === "true"
+      ? {
+          consent_collection: { terms_of_service: "required" },
+          custom_text: {
+            submit: { message: `${site.brand} · One-time purchase of digital files. No physical goods are shipped.` },
+            terms_of_service_acceptance: { message: `I agree to the [Terms of Service](${url.origin}/terms/) and [Refund Policy](${url.origin}/refunds/).` },
+          },
+        }
+      : {}),
   };
 
   try {

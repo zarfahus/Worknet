@@ -76,7 +76,7 @@ async function main() {
   const priceTamper = asJson(await post({ items: ["weekly-focus-planner"], acceptTerms: true, digitalConsent: true, price: 1 }));
   const tamperedSession = (await (await fetch(`${STRIPE}/__state`)).json()).sessions.at(-1);
   assert.equal(tamperedSession.received_params["line_items[0][price_data][unit_amount]"], "1299", "price always comes from the catalog");
-  assert.equal(tamperedSession.received_params["line_items[0][price_data][currency]"], "eur");
+  assert.equal(tamperedSession.received_params["line_items[0][price_data][currency]"], "usd");
   assert.equal(tamperedSession.metadata.digital_content_consent, "true");
   assert.ok(priceTamper.url.startsWith(STRIPE), "checkout returns the hosted payment URL");
   assert.equal((await api("/api/order?session_id=nope")).status, 400, "invalid session id");
@@ -102,10 +102,10 @@ async function main() {
   await page.waitForSelector(".cart-item");
   assert.equal(await page.locator(".cart-item").count(), 2);
   assert.match(await page.locator("#cart-notices").innerText(), /already includes the Weekly Focus Planner/);
-  assert.equal(await page.locator("#summary-subtotal").innerText(), "€32.98");
+  assert.equal(await page.locator("#summary-subtotal").innerText(), "$32.98 USD");
   await page.click('button[aria-label="Remove Weekly Focus Planner from cart"]');
   assert.equal(await page.locator(".cart-item").count(), 1);
-  assert.equal(await page.locator("#summary-subtotal").innerText(), "€19.99");
+  assert.equal(await page.locator("#summary-subtotal").innerText(), "$19.99 USD");
   assert.ok(await page.locator("#checkout-submit").isDisabled(), "submit disabled until consents are given");
   await page.check("#accept-terms");
   assert.ok(await page.locator("#checkout-submit").isDisabled());
@@ -117,7 +117,7 @@ async function main() {
   const orderText = await page.locator("#order-root").innerText();
   assert.match(orderText, /WN-[A-Z0-9]{8}/);
   assert.match(orderText, /ja•+@example\.com/);
-  assert.match(orderText, /€19\.99/);
+  assert.match(orderText, /\$19\.99 USD/);
   assert.equal(await page.locator(".cart-count").first().innerText(), "0", "purchased items leave the cart");
   console.log("✓ browser checkout flow");
 

@@ -1,4 +1,4 @@
-// WorkNest Studio — shared behaviour: mobile menu, cart storage, add-to-cart buttons, product gallery.
+// WorkNest Studio — shared behavior: mobile menu, cart storage, add-to-cart buttons, product gallery.
 (() => {
   "use strict";
 
@@ -91,8 +91,21 @@
     });
   });
 
-  // Product gallery
+  // Product gallery, with a larger view in a dialog
   const main = document.getElementById("gallery-main");
+  const lightbox = document.getElementById("lightbox");
+  const opener = document.querySelector("[data-lightbox]");
+  if (main && lightbox && opener && typeof lightbox.showModal === "function") {
+    opener.addEventListener("click", () => {
+      const img = document.getElementById("lightbox-img");
+      img.src = main.src;
+      img.alt = main.alt;
+      lightbox.showModal();
+    });
+    lightbox.addEventListener("click", (e) => {
+      if (e.target === lightbox) lightbox.close();
+    });
+  }
   if (main) {
     document.querySelectorAll(".gallery-thumbs button").forEach((btn) => {
       btn.addEventListener("click", () => {

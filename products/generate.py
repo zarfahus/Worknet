@@ -62,7 +62,7 @@ class Doc:
 
 DOCS = [
     Doc("wfp", "weekly-focus-planner", "Weekly Focus Planner", content.weekly_focus_planner(),
-        "WorkNest-Weekly-Focus-Planner", ["pdf", "docx"], ["Printable PDF (A4)", "Editable DOCX"], ["PDF", "DOCX"],
+        "WorkNest-Weekly-Focus-Planner", ["pdf", "docx"], ["Printable PDF (US Letter)", "Editable DOCX"], ["PDF", "DOCX"],
         ["Begin each week with the Weekly Plan page: set a focus, choose three priorities and list fixed "
          "appointments and deadlines.",
          "Use the Priority Tracker to rank everything competing for your time.",
@@ -71,7 +71,7 @@ DOCS = [
          "Use the Goal Tracker for a goal that spans several weeks."],
         [1, 3, 5, 12]),
     Doc("mna", "meeting-notes-action-tracker", "Meeting Notes & Action Tracker", content.meeting_notes_action_tracker(),
-        "WorkNest-Meeting-Notes-Action-Tracker", ["pdf", "docx"], ["Printable PDF (A4)", "Editable DOCX"],
+        "WorkNest-Meeting-Notes-Action-Tracker", ["pdf", "docx"], ["Printable PDF (US Letter)", "Editable DOCX"],
         ["PDF", "DOCX"],
         ["Send the Meeting Agenda to attendees before the meeting.",
          "Take notes on the Meeting Notes page and record decisions and action items as they happen.",
@@ -79,7 +79,7 @@ DOCS = [
          "Complete the Meeting Follow-Up page within a day of the meeting."],
         [1, 3, 4, 7]),
     Doc("cpc", "content-planning-calendar", "Content Planning Calendar", content.content_planning_calendar(),
-        "WorkNest-Content-Planning-Calendar", ["pdf"], ["Printable PDF (A4)", "Companion XLSX workbook"],
+        "WorkNest-Content-Planning-Calendar", ["pdf"], ["Printable PDF (US Letter)", "Companion XLSX workbook"],
         ["PDF", "XLSX"],
         ["Start with the 90-Day Plan Overview: your goal, monthly themes and channels.",
          "Plan week by week on the three 90-Day Calendar pages.",
@@ -91,7 +91,7 @@ DOCS = [
         [1, 3, 6, 8]),
     Doc("cpt", "complete-productivity-toolkit", "Productivity Toolkit Planners", content.productivity_toolkit_planners(),
         "WorkNest-Productivity-Toolkit-Planners", ["pdf", "docx"],
-        ["Printable PDF (A4)", "Editable DOCX", "Companion XLSX workbook"], ["PDF", "DOCX", "XLSX"],
+        ["Printable PDF (US Letter)", "Editable DOCX", "Companion XLSX workbook"], ["PDF", "DOCX", "XLSX"],
         ["This document holds the toolkit's additional planners. The Weekly Focus Planner and the Meeting Notes "
          "& Action Tracker are included as separate files.",
          "Use the Priority Planner whenever your list feels overwhelming.",
@@ -102,7 +102,7 @@ DOCS = [
         [1, 3, 5, 6]),
     Doc("sbw", "small-business-workflow-toolkit", "Small Business Workflow Toolkit",
         content.small_business_workflow_toolkit(), "WorkNest-Small-Business-Workflow-Toolkit", ["pdf", "docx"],
-        ["Printable PDF (A4)", "Editable DOCX", "Companion XLSX workbook"], ["PDF", "DOCX", "XLSX"],
+        ["Printable PDF (US Letter)", "Editable DOCX", "Companion XLSX workbook"], ["PDF", "DOCX", "XLSX"],
         ["Pick one workflow that repeats often and describe it on the Workflow Planning Sheet.",
          "Turn important workflows into step-by-step instructions with the Process Documentation worksheet.",
          "List routine work in the Recurring Task Tracker and make ownership clear in the Responsibility Tracker.",
@@ -111,7 +111,7 @@ DOCS = [
         [1, 3, 5, 7]),
     Doc("cpb", "creator-planning-bundle", "Creator Planning Bundle", content.creator_planning_bundle(),
         "WorkNest-Creator-Planning-Bundle", ["pdf", "docx"],
-        ["Printable PDF (A4)", "Editable DOCX", "Companion XLSX workbook"], ["PDF", "DOCX", "XLSX"],
+        ["Printable PDF (US Letter)", "Editable DOCX", "Companion XLSX workbook"], ["PDF", "DOCX", "XLSX"],
         ["Plan each month on a Content Calendar page.",
          "Keep the Content Idea Planner as your idea bank.",
          "Use one Production Checklist per piece of content.",
@@ -180,7 +180,7 @@ def make_previews(doc, pdf_path, tmp):
 def card_image(slug, pages, tmp):
     """Product card: the cover sheet in front of an interior page, on the brand's light background."""
     W, H = 1200, 900
-    canvas = Image.new("RGB", (W, H), (238, 241, 246))
+    canvas = Image.new("RGB", (W, H), (235, 231, 223))  # warm paper tone used on the website
 
     def sheet(png, height):
         im = Image.open(png).convert("RGB")
@@ -189,20 +189,20 @@ def card_image(slug, pages, tmp):
 
     def place(im, x, y):
         shadow = Image.new("RGBA", (im.width + 80, im.height + 80), (0, 0, 0, 0))
-        block = Image.new("RGBA", im.size, (31, 42, 68, 60))
-        shadow.paste(block, (40, 46))
-        shadow = shadow.filter(ImageFilter.GaussianBlur(18))
+        block = Image.new("RGBA", im.size, (40, 36, 30, 46))
+        shadow.paste(block, (40, 50))
+        shadow = shadow.filter(ImageFilter.GaussianBlur(22))
         canvas.paste(shadow, (x - 40, y - 40), shadow)
         canvas.paste(im, (x, y))
 
-    back = sheet(pages[1], 700)
+    back = sheet(pages[1], 760)
     if back.width > back.height:  # landscape interior page
-        back = sheet(pages[1], 520)
-        place(back, W - back.width - 70, 190)
+        back = sheet(pages[1], 560)
+        place(back, W - back.width - 50, 200)
     else:
-        place(back, 600, 130)
-    front = sheet(pages[0], 740)
-    place(front, 150, 80)
+        place(back, 560, 90)
+    front = sheet(pages[0], 800)
+    place(front, 110, 50)
     canvas.save(os.path.join(CARDS, f"{slug}.webp"), "WEBP", quality=86, method=6)
     canvas.save(os.path.join(CARDS, f"{slug}.jpg"), "JPEG", quality=86, optimize=True, progressive=True)
 
@@ -216,17 +216,17 @@ def readme_text(slug, files):
     lines += [f"  - {f['filename']}: {f['label']}" for f in files]
     lines += [
         "", "How to open the files:",
-        "  - PDF: any PDF reader or browser. Pages are A4; choose 'Fit to page' to print on US Letter.",
+        "  - PDF: any PDF reader or browser. Pages are US Letter; choose 'Fit to page' to print on A4.",
         "  - DOCX: Microsoft Word, Google Docs, LibreOffice Writer or Apple Pages.",
         "  - XLSX: Microsoft Excel, Google Sheets, LibreOffice Calc or Apple Numbers.",
-        "", "Licence:",
+        "", "License:",
         "  You may use and edit these templates for your own personal or internal business purposes.",
         "  Please do not resell, share or redistribute the files or publish them as templates.",
         f"  Full terms: {SITE['url']}/terms/",
         "", "Support:",
         f"  If a file will not open, is incomplete or does not match its description, email {SITE['email']}",
         "  with your order reference.",
-        "", "These templates are organisational tools, not legal, financial, accounting, tax, investment, medical",
+        "", "These templates are organizational tools, not legal, financial, accounting, tax, investment, medical",
         "or other professional advice.", "", f"(c) {render.YEAR} WorkNest Studio",
     ]
     return "\r\n".join(lines) + "\r\n"
@@ -252,7 +252,7 @@ def main():
             path = os.path.join(FILES_DIR, filename)
             if fmt == "pdf":
                 pages = render.build_pdf(doc, path)
-                label = f"Printable PDF, A4, {pages} pages"
+                label = f"Printable PDF, US Letter, {pages} pages"
                 previews[doc.key] = make_previews(doc, path, tmp)
                 first_pages[doc.key] = [os.path.join(tmp, f"{doc.key}-{doc.previews[0]}.png"),
                                         os.path.join(tmp, f"{doc.key}-{doc.previews[1]}.png")]
