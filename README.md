@@ -42,13 +42,13 @@ Live domain: **decoyclaw.com**
    npx wrangler pages secret put STRIPE_SECRET_KEY --project-name worknest-studio
    ```
 2. **Stripe Dashboard settings that must match the site.** The site states these, so set them exactly:
-   - **Settings › Public details:** business name `DeskNest Studio`, website `https://decoyclaw.com`, support email `help@decoyclaw.com`, support phone `+1 417 398 2273`, support address (91-1009 Owakalena St, Kapolei, HI 96707), Terms of service URL `https://decoyclaw.com/terms/`, Privacy policy URL `https://decoyclaw.com/privacy/`.
+   - **Settings › Public details:** business name `DeskNest Studio`, website `https://decoyclaw.com`, support email `admin@decoyclaw.com`, support phone `+1 417 829 6611`, support address (9197 Country View Ln, Loveland, OH 45140), Terms of service URL `https://decoyclaw.com/terms/`, Privacy policy URL `https://decoyclaw.com/privacy/`.
    - **Statement descriptor:** `DESKNEST STUDIO`. The site tells customers the charge appears under that name (`statementDescriptor` in `src/data/site.json`).
    - **Settings › Checkout:** turn on *Contact information*, *Legal policies* and *Refund policy*. Choose "refunds" for digital goods, with a link to `https://decoyclaw.com/refunds/`.
    - Optional: after the Terms URL is set, change `STRIPE_TOS_CONSENT` to `"true"` in `wrangler.toml` so Stripe's page also shows a required terms checkbox.
 3. **Sales tax.** Prices are in USD and exclude sales tax. If you need sales tax collected, enable Stripe Tax, then set `STRIPE_AUTOMATIC_TAX = "true"` in `wrangler.toml` and redeploy. Tax is then shown on the payment page before the customer pays, which is what the site's policies say.
-4. **Support mailbox.** `help@decoyclaw.com` is shown throughout the site and in the product files, so make sure it receives mail. For example, use Cloudflare Email Routing (Email › Email Routing) to forward it to your inbox.
-5. **Legal entity.** If DeskNest Studio is a trading name of a company or of you personally, put the legal name (and any registration number) in `src/data/site.json` (`legalName`, `registrationNumber`). The Terms, Privacy Policy and About page pick it up automatically. Governing law is set to the State of Hawaii, based on the business address. Have the policies reviewed for your situation.
+4. **Support mailbox.** `admin@decoyclaw.com` is shown throughout the site and in the product files, so make sure it receives mail. For example, use Cloudflare Email Routing (Email › Email Routing) to forward it to your inbox.
+5. **Legal entity.** If DeskNest Studio is a trading name of a company or of you personally, put the legal name (and any registration number) in `src/data/site.json` (`legalName`, `registrationNumber`). The Terms, Privacy Policy and About page pick it up automatically. Governing law is set to the State of Ohio, based on the business address. Have the policies reviewed for your situation.
 
 ## Deploy
 

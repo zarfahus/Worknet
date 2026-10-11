@@ -5,20 +5,20 @@
   "description": "DeskNest Studio creates practical digital templates that make everyday planning, meetings, projects and content organization easier. Our products are designed for individuals, freelancers and small businesses that want ready-to-use organizational tools without complicated software.",
   "domain": "decoyclaw.com",
   "url": "https://decoyclaw.com",
-  "email": "help@decoyclaw.com",
-  "phone": "+1 417 398 2273",
-  "phoneDisplay": "+1 (417) 398-2273",
+  "email": "admin@decoyclaw.com",
+  "phone": "+1 417 829 6611",
+  "phoneDisplay": "+1 (417) 829-6611",
   "legalName": "",
   "registrationNumber": "",
   "address": {
-    "street": "91-1009 Owakalena St",
-    "city": "Kapolei",
-    "region": "HI",
-    "postalCode": "96707",
+    "street": "9197 Country View Ln",
+    "city": "Loveland",
+    "region": "OH",
+    "postalCode": "45140",
     "country": "United States",
     "countryCode": "US"
   },
-  "governingLaw": "the State of Hawaii, United States",
+  "governingLaw": "the State of Ohio, United States",
   "policiesUpdated": "2026-10-11",
   "policiesUpdatedDisplay": "October 11, 2026",
   "paymentProcessor": {
@@ -26,8 +26,8 @@
     "privacyUrl": "https://stripe.com/privacy"
   },
   "statementDescriptor": "DESKNEST STUDIO",
-  "sellerLocation": "Kapolei, Hawaii, United States",
+  "sellerLocation": "Loveland, Ohio, United States",
   "acceptedPayments": "Major credit and debit cards, including Visa, Mastercard, American Express and Discover",
   "refundReportDays": 30,
-  "governingState": "Hawaii"
+  "governingState": "Ohio"
 }
