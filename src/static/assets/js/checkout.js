@@ -1,4 +1,4 @@
-// WorkNest Studio — cart and checkout page.
+// DeskNest Studio — cart and checkout page.
 (() => {
   "use strict";
 
@@ -7,7 +7,7 @@
   const fmt = new Intl.NumberFormat("en-US", { style: "currency", currency: data.currency });
   // Show the currency code as well as the symbol, as on the rest of the site.
   const money = { format: (amount) => `${fmt.format(amount)} ${data.currency}` };
-  const cart = window.WorkNestCart;
+  const cart = window.DeskNestCart;
 
   const $ = (id) => document.getElementById(id);
   const list = $("cart-items");

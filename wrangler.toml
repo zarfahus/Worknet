@@ -1,4 +1,4 @@
-# Cloudflare Pages configuration for WorkNest Studio.
+# Cloudflare Pages configuration for DeskNest Studio.
 # Secrets (STRIPE_SECRET_KEY) are not stored here: set them with
 #   npx wrangler pages secret put STRIPE_SECRET_KEY --project-name worknest-studio
 name = "worknest-studio"

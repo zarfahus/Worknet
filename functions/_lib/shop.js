@@ -1,4 +1,4 @@
-// Shared helpers for the WorkNest Studio Pages Functions.
+// Shared helpers for the DeskNest Studio Pages Functions.
 import catalog from "../../src/data/catalog.json";
 import manifest from "../../src/data/manifest.json";
 import site from "../../src/data/site.json";
@@ -71,7 +71,7 @@ export async function stripe(env, method, path, params) {
 export function orderReference() {
   const alphabet = "23456789ABCDEFGHJKLMNPQRSTUVWXYZ"; // no 0/O/1/I
   const bytes = crypto.getRandomValues(new Uint8Array(8));
-  return "WN-" + Array.from(bytes, (b) => alphabet[b % alphabet.length]).join("");
+  return "DN-" + Array.from(bytes, (b) => alphabet[b % alphabet.length]).join("");
 }
 
 export function maskEmail(email) {

@@ -2,214 +2,214 @@
   "version": "1.0",
   "files": {
     "wfp-pdf": {
-      "filename": "WorkNest-Weekly-Focus-Planner.pdf",
+      "filename": "DeskNest-Weekly-Focus-Planner.pdf",
       "format": "PDF",
       "label": "Weekly Focus Planner: Printable PDF, US Letter, 13 pages",
       "pages": 13,
-      "key": "files/WorkNest-Weekly-Focus-Planner.pdf",
-      "bytes": 77205,
+      "key": "files/DeskNest-Weekly-Focus-Planner.pdf",
+      "bytes": 77219,
       "contentType": "application/pdf",
-      "sha256": "c5ef8bb28ad86e94203c67e6d730329b31639edb68573a8793d81d03310a95af"
+      "sha256": "be5a00255cf71d974de9902e397e6486aa6a003efc93fb76b94337c312b4e9c7"
     },
     "wfp-docx": {
-      "filename": "WorkNest-Weekly-Focus-Planner.docx",
+      "filename": "DeskNest-Weekly-Focus-Planner.docx",
       "format": "DOCX",
       "label": "Weekly Focus Planner: Editable Word document (DOCX)",
       "pages": null,
-      "key": "files/WorkNest-Weekly-Focus-Planner.docx",
-      "bytes": 47238,
+      "key": "files/DeskNest-Weekly-Focus-Planner.docx",
+      "bytes": 47237,
       "contentType": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
-      "sha256": "9b3a8530924b4d0184e4f0c4dc025e5438e569a27e9995776c36aac941e81767"
+      "sha256": "d41fcc894a57d316ac6215596da3a78ca91f24eb8b4c7c210a4549f17c6397af"
     },
     "mna-pdf": {
-      "filename": "WorkNest-Meeting-Notes-Action-Tracker.pdf",
+      "filename": "DeskNest-Meeting-Notes-Action-Tracker.pdf",
       "format": "PDF",
       "label": "Meeting Notes & Action Tracker: Printable PDF, US Letter, 8 pages",
       "pages": 8,
-      "key": "files/WorkNest-Meeting-Notes-Action-Tracker.pdf",
-      "bytes": 54037,
+      "key": "files/DeskNest-Meeting-Notes-Action-Tracker.pdf",
+      "bytes": 54027,
       "contentType": "application/pdf",
-      "sha256": "560df4b0ea404a897f8272a81003ab1107b085440f040196414b96fe71c129bc"
+      "sha256": "df186425532323d2673c9a2181e76004882b469ecbe048f45468f9e617bd371d"
     },
     "mna-docx": {
-      "filename": "WorkNest-Meeting-Notes-Action-Tracker.docx",
+      "filename": "DeskNest-Meeting-Notes-Action-Tracker.docx",
       "format": "DOCX",
       "label": "Meeting Notes & Action Tracker: Editable Word document (DOCX)",
       "pages": null,
-      "key": "files/WorkNest-Meeting-Notes-Action-Tracker.docx",
-      "bytes": 45519,
+      "key": "files/DeskNest-Meeting-Notes-Action-Tracker.docx",
+      "bytes": 45517,
       "contentType": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
-      "sha256": "d4d9f0bc903148e851a974b909c2e91bcf56cf7536cb795b379ee393fa916695"
+      "sha256": "b8eed47b0d9db6d7e5eae1852c9873cabe8c23ccf7259e71e7e49480d8fb0215"
     },
     "cpc-pdf": {
-      "filename": "WorkNest-Content-Planning-Calendar.pdf",
+      "filename": "DeskNest-Content-Planning-Calendar.pdf",
       "format": "PDF",
       "label": "Content Planning Calendar: Printable PDF, US Letter, 10 pages",
       "pages": 10,
-      "key": "files/WorkNest-Content-Planning-Calendar.pdf",
-      "bytes": 55113,
+      "key": "files/DeskNest-Content-Planning-Calendar.pdf",
+      "bytes": 55132,
       "contentType": "application/pdf",
-      "sha256": "0a3da6acf3967d58b7507168cd5ed86bc13d85ca14612fbf79618fee6aa6f4b7"
+      "sha256": "887dbc86cb8f9cd7dd90e2c5e2903d3b967d68967ebcdeee64ea599f5edc5e97"
     },
     "cpt-pdf": {
-      "filename": "WorkNest-Productivity-Toolkit-Planners.pdf",
+      "filename": "DeskNest-Productivity-Toolkit-Planners.pdf",
       "format": "PDF",
       "label": "Productivity Toolkit Planners: Printable PDF, US Letter, 9 pages",
       "pages": 9,
-      "key": "files/WorkNest-Productivity-Toolkit-Planners.pdf",
-      "bytes": 56948,
+      "key": "files/DeskNest-Productivity-Toolkit-Planners.pdf",
+      "bytes": 56957,
       "contentType": "application/pdf",
-      "sha256": "eed71bc32c1b65ece2ff890f7378d6cccb089c2043c5cde431d647ed2345d8c6"
+      "sha256": "db5e59836c3902184f7d461302634985f9ed26f7716a70dfba031029fe5cc0c8"
     },
     "cpt-docx": {
-      "filename": "WorkNest-Productivity-Toolkit-Planners.docx",
+      "filename": "DeskNest-Productivity-Toolkit-Planners.docx",
       "format": "DOCX",
       "label": "Productivity Toolkit Planners: Editable Word document (DOCX)",
       "pages": null,
-      "key": "files/WorkNest-Productivity-Toolkit-Planners.docx",
+      "key": "files/DeskNest-Productivity-Toolkit-Planners.docx",
       "bytes": 46968,
       "contentType": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
-      "sha256": "400f55ee9cd3bb0ddc99f7d36ba19d732c181e01626e045e8f7c86ef36fee8cd"
+      "sha256": "03c13db8a541921db642119c9d20ea411ea6a1034f5fafd63cd642b9c1ed1a07"
     },
     "sbw-pdf": {
-      "filename": "WorkNest-Small-Business-Workflow-Toolkit.pdf",
+      "filename": "DeskNest-Small-Business-Workflow-Toolkit.pdf",
       "format": "PDF",
       "label": "Small Business Workflow Toolkit: Printable PDF, US Letter, 9 pages",
       "pages": 9,
-      "key": "files/WorkNest-Small-Business-Workflow-Toolkit.pdf",
-      "bytes": 60558,
+      "key": "files/DeskNest-Small-Business-Workflow-Toolkit.pdf",
+      "bytes": 60580,
       "contentType": "application/pdf",
-      "sha256": "54f0bc28f5912053bfe57474d2dc085b4af768224aed446e14ca1c29225f4072"
+      "sha256": "0b39b98635c21992bf6673a6cbbedcdfa4fb4c76e925293a00f1fdb839608ce7"
     },
     "sbw-docx": {
-      "filename": "WorkNest-Small-Business-Workflow-Toolkit.docx",
+      "filename": "DeskNest-Small-Business-Workflow-Toolkit.docx",
       "format": "DOCX",
       "label": "Small Business Workflow Toolkit: Editable Word document (DOCX)",
       "pages": null,
-      "key": "files/WorkNest-Small-Business-Workflow-Toolkit.docx",
-      "bytes": 47075,
+      "key": "files/DeskNest-Small-Business-Workflow-Toolkit.docx",
+      "bytes": 47076,
       "contentType": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
-      "sha256": "9039381c6b95020c156cb6beb07a82eb81bd91e571bf05b775c7acfc99a61523"
+      "sha256": "779e29bbae08fad285610a32d2ee70ee07b0bafb65ced17b2872126423e8cb0c"
     },
     "cpb-pdf": {
-      "filename": "WorkNest-Creator-Planning-Bundle.pdf",
+      "filename": "DeskNest-Creator-Planning-Bundle.pdf",
       "format": "PDF",
       "label": "Creator Planning Bundle: Printable PDF, US Letter, 10 pages",
       "pages": 10,
-      "key": "files/WorkNest-Creator-Planning-Bundle.pdf",
-      "bytes": 56293,
+      "key": "files/DeskNest-Creator-Planning-Bundle.pdf",
+      "bytes": 56302,
       "contentType": "application/pdf",
-      "sha256": "d4ceeaaff61b1972eaa2a24bb15623a6fa3049e37c4300a0c97bab1656c21aae"
+      "sha256": "efae68fe272c64ce2056b0940655457b5aebeeecc48f582c67c1aeaca91ec028"
     },
     "cpb-docx": {
-      "filename": "WorkNest-Creator-Planning-Bundle.docx",
+      "filename": "DeskNest-Creator-Planning-Bundle.docx",
       "format": "DOCX",
       "label": "Creator Planning Bundle: Editable Word document (DOCX)",
       "pages": null,
-      "key": "files/WorkNest-Creator-Planning-Bundle.docx",
-      "bytes": 46098,
+      "key": "files/DeskNest-Creator-Planning-Bundle.docx",
+      "bytes": 46095,
       "contentType": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
-      "sha256": "d650cf4b0b0cea39363a7ea215d05c9a403c9d4157b844d6d5fc04a87e635a14"
+      "sha256": "1f81a935bc753cda04be5b238b359e546d88a2a427f44f52049c833f289fbc97"
     },
     "cpc-xlsx": {
-      "filename": "WorkNest-Content-Planning-Calendar.xlsx",
+      "filename": "DeskNest-Content-Planning-Calendar.xlsx",
       "format": "XLSX",
       "label": "Editable spreadsheet: 90-day calendar with automatic dates, idea list, publishing tracker, campaign plan and review sheet",
       "pages": null,
-      "key": "files/WorkNest-Content-Planning-Calendar.xlsx",
-      "bytes": 27506,
+      "key": "files/DeskNest-Content-Planning-Calendar.xlsx",
+      "bytes": 27508,
       "contentType": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
-      "sha256": "db03dbcf55638a0c24742cdfac98af4050a65ec26884129bad331f2e062e648f"
+      "sha256": "482aa044d84c59411d79123777be23c41879250212a9f3b75bb19e31e19d1535"
     },
     "cpt-xlsx": {
-      "filename": "WorkNest-Productivity-Toolkit-Trackers.xlsx",
+      "filename": "DeskNest-Productivity-Toolkit-Trackers.xlsx",
       "format": "XLSX",
       "label": "Editable spreadsheet: priorities, project tasks, action items, decisions, weekly review log and ideal week",
       "pages": null,
-      "key": "files/WorkNest-Productivity-Toolkit-Trackers.xlsx",
-      "bytes": 29656,
+      "key": "files/DeskNest-Productivity-Toolkit-Trackers.xlsx",
+      "bytes": 29659,
       "contentType": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
-      "sha256": "f4248c8466316aa3b63eceb81996e87a31f252e62c874829f4ac082e89904e4f"
+      "sha256": "d6ba28029d92c221d61295644f96cadcdc74ba4c8de6963db49089ce4fa88114"
     },
     "sbw-xlsx": {
-      "filename": "WorkNest-Small-Business-Workflow-Trackers.xlsx",
+      "filename": "DeskNest-Small-Business-Workflow-Trackers.xlsx",
       "format": "XLSX",
       "label": "Editable spreadsheet: workflow steps, recurring tasks with next-due dates, responsibilities, weekly operations, task review and change log",
       "pages": null,
-      "key": "files/WorkNest-Small-Business-Workflow-Trackers.xlsx",
-      "bytes": 27573,
+      "key": "files/DeskNest-Small-Business-Workflow-Trackers.xlsx",
+      "bytes": 27574,
       "contentType": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
-      "sha256": "87265ca302a672f9f5def0feb484780d6717250d15da872e9d5d533bf57ddc7b"
+      "sha256": "b86d5079b69797139da9301b8f86cb209346cd4562c3972ac92372957e6cdd50"
     },
     "cpb-xlsx": {
-      "filename": "WorkNest-Creator-Planning-Trackers.xlsx",
+      "filename": "DeskNest-Creator-Planning-Trackers.xlsx",
       "format": "XLSX",
       "label": "Editable spreadsheet: content calendar, idea bank, production checklist, publishing tracker, campaigns and performance log",
       "pages": null,
-      "key": "files/WorkNest-Creator-Planning-Trackers.xlsx",
-      "bytes": 35175,
+      "key": "files/DeskNest-Creator-Planning-Trackers.xlsx",
+      "bytes": 35180,
       "contentType": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
-      "sha256": "83ca6b018460bd4912ee7a97bbe38f74cffdb9fcf9596e0cbcbdc8d119e203b2"
+      "sha256": "ee7719a6f1bda602200bfab71bc193c628fbd72688c99ee71a467c8b78226be3"
     },
     "weekly-focus-planner-zip": {
-      "filename": "WorkNest-WeeklyFocusPlanner.zip",
+      "filename": "DeskNest-WeeklyFocusPlanner.zip",
       "format": "ZIP",
       "label": "All files for this product in one ZIP archive",
       "pages": null,
-      "key": "zips/WorkNest-WeeklyFocusPlanner.zip",
-      "bytes": 102996,
+      "key": "zips/DeskNest-WeeklyFocusPlanner.zip",
+      "bytes": 105127,
       "contentType": "application/zip",
-      "sha256": "3894333fc92325155767a4a46b477d0f68e4c39ba56cf8d1525523a5e22a9a83"
+      "sha256": "e9dd0139e656d6672524a308e3c08db7d73e05551c1a49eff5fec77e47beca2e"
     },
     "meeting-notes-action-tracker-zip": {
-      "filename": "WorkNest-MeetingNotesActionTracker.zip",
+      "filename": "DeskNest-MeetingNotesActionTracker.zip",
       "format": "ZIP",
       "label": "All files for this product in one ZIP archive",
       "pages": null,
-      "key": "zips/WorkNest-MeetingNotesActionTracker.zip",
-      "bytes": 88727,
+      "key": "zips/DeskNest-MeetingNotesActionTracker.zip",
+      "bytes": 88705,
       "contentType": "application/zip",
-      "sha256": "8d213b5aa5b260950785ce056d48f90efe63b50c35b3a4b1274f03066780f4ef"
+      "sha256": "4dfa5dcbe93a74dd75c1320495ee12271a8df9bf0d0681172bb1794b93484920"
     },
     "content-planning-calendar-zip": {
-      "filename": "WorkNest-ContentPlanningCalendar.zip",
+      "filename": "DeskNest-ContentPlanningCalendar.zip",
       "format": "ZIP",
       "label": "All files for this product in one ZIP archive",
       "pages": null,
-      "key": "zips/WorkNest-ContentPlanningCalendar.zip",
-      "bytes": 67936,
+      "key": "zips/DeskNest-ContentPlanningCalendar.zip",
+      "bytes": 68108,
       "contentType": "application/zip",
-      "sha256": "2437009d4d5974bea7a6c58151472e3e5140f41140bae9facce5e008e404d6e1"
+      "sha256": "e0247e3c80683eacdb247dce718e3174726905aa37f210f61e010533034bc2f7"
     },
     "complete-productivity-toolkit-zip": {
-      "filename": "WorkNest-CompleteProductivityToolkit.zip",
+      "filename": "DeskNest-CompleteProductivityToolkit.zip",
       "format": "ZIP",
       "label": "All files for this product in one ZIP archive",
       "pages": null,
-      "key": "zips/WorkNest-CompleteProductivityToolkit.zip",
-      "bytes": 306794,
+      "key": "zips/DeskNest-CompleteProductivityToolkit.zip",
+      "bytes": 308911,
       "contentType": "application/zip",
-      "sha256": "09f3f9111f080a2ef02fa71ce0e4848ccf389c191aa15e8969b3d25d864a6793"
+      "sha256": "60f5ed509836b811d1dc07e2bab78e445b0b80dcb728ecdf3f0e6d557f1bb15f"
     },
     "small-business-workflow-toolkit-zip": {
-      "filename": "WorkNest-SmallBusinessWorkflowToolkit.zip",
+      "filename": "DeskNest-SmallBusinessWorkflowToolkit.zip",
       "format": "ZIP",
       "label": "All files for this product in one ZIP archive",
       "pages": null,
-      "key": "zips/WorkNest-SmallBusinessWorkflowToolkit.zip",
-      "bytes": 116595,
+      "key": "zips/DeskNest-SmallBusinessWorkflowToolkit.zip",
+      "bytes": 116514,
       "contentType": "application/zip",
-      "sha256": "a8cd35710f7855fb183e65dc6d7bb7aa91381962584886995411138a5afff721"
+      "sha256": "a512ef747ac96f9c0ecbcf1534bfca0291ddf8175723cac3ec15af5a5aea467f"
     },
     "creator-planning-bundle-zip": {
-      "filename": "WorkNest-CreatorPlanningBundle.zip",
+      "filename": "DeskNest-CreatorPlanningBundle.zip",
       "format": "ZIP",
       "label": "All files for this product in one ZIP archive",
       "pages": null,
-      "key": "zips/WorkNest-CreatorPlanningBundle.zip",
-      "bytes": 116838,
+      "key": "zips/DeskNest-CreatorPlanningBundle.zip",
+      "bytes": 116892,
       "contentType": "application/zip",
-      "sha256": "26484d8a741e1ebe7a3c08602974bbbfeff03cac3c322f984c6e13b2d0a4d614"
+      "sha256": "1a66f4cf1b06bbe817429383c280479ddde81fb939f38b52e5dd4e854f7488f3"
     }
   },
   "products": {

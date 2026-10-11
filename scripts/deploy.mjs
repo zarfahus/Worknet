@@ -1,5 +1,5 @@
 #!/usr/bin/env node
-// Deploy WorkNest Studio to Cloudflare Pages and connect the custom domain. Safe to re-run.
+// Deploy DeskNest Studio to Cloudflare Pages and connect the custom domain. Safe to re-run.
 //
 //   CLOUDFLARE_API_TOKEN=... CLOUDFLARE_ACCOUNT_ID=... node scripts/deploy.mjs
 //

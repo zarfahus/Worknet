@@ -21,7 +21,7 @@ SITE = {}  # filled in by generate.py from src/data/site.json
 
 
 def license_line():
-    return f"© {YEAR} WorkNest Studio · Licensed for personal and internal business use · Not for resale"
+    return f"© {YEAR} DeskNest Studio · Licensed for personal and internal business use · Not for resale"
 
 
 # --------------------------------------------------------------------------
@@ -71,7 +71,7 @@ def _frame(c, W, H, doc_title, page_no):
     draw_logo(c, M, H - M - 13, 13)
     c.setFont(B.SEMI, 8.5)
     c.setFillColor(NAVY)
-    c.drawString(M + 19, H - M - 9.5, "WorkNest Studio")
+    c.drawString(M + 19, H - M - 9.5, "DeskNest Studio")
     c.setFont(B.REG, 7.5)
     c.setFillColor(MUTED)
     c.drawRightString(W - M, H - M - 9.5, doc_title)
@@ -161,7 +161,7 @@ def draw_cover(c, doc, contents):
     draw_logo(c, M + 6, H - M - 26, 22)
     c.setFont(B.SEMI, 12)
     c.setFillColor(NAVY)
-    c.drawString(M + 36, H - M - 18, "WorkNest Studio")
+    c.drawString(M + 36, H - M - 18, "DeskNest Studio")
     _cover_illustration(c, M + 30, H - band_h + 30, W - 2 * M - 60, band_h - 110)
 
     x = M + 6
@@ -238,11 +238,11 @@ def build_pdf(doc, path):
             seen.add(p.section)
             contents.append((p.section, i + 2))
     c = canvas.Canvas(path, pagesize=PAGE, pageCompression=1)
-    c.setTitle(f"{doc.title} — WorkNest Studio")
-    c.setAuthor("WorkNest Studio")
+    c.setTitle(f"{doc.title} — DeskNest Studio")
+    c.setAuthor("DeskNest Studio")
     c.setSubject(doc.subtitle)
-    c.setCreator("WorkNest Studio")
-    c.setKeywords(["template", "planner", "WorkNest Studio"])
+    c.setCreator("DeskNest Studio")
+    c.setKeywords(["template", "planner", "DeskNest Studio"])
     draw_cover(c, doc, contents)
     c.showPage()
     for i, p in enumerate(pages):
@@ -305,7 +305,7 @@ def _setup_docx(doc_title):
         pPr.remove(pPr.find(qn("w:pBdr")))
 
     hp = sec.header.paragraphs[0]
-    r = hp.add_run("WorkNest Studio")
+    r = hp.add_run("DeskNest Studio")
     r.bold = True
     r.font.size = Pt(8.5)
     r.font.color.rgb = RGBColor.from_string(B.NAVY_HEX)
@@ -322,8 +322,8 @@ def _setup_docx(doc_title):
 
 def build_docx(doc, path, logo_path):
     d = _setup_docx(doc.title)
-    d.core_properties.title = f"{doc.title} — WorkNest Studio"
-    d.core_properties.author = "WorkNest Studio"
+    d.core_properties.title = f"{doc.title} — DeskNest Studio"
+    d.core_properties.author = "DeskNest Studio"
     d.core_properties.subject = doc.subtitle
     d.core_properties.comments = license_line()
 

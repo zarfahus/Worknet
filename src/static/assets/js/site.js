@@ -1,9 +1,9 @@
-// WorkNest Studio — shared behavior: mobile menu, cart storage, add-to-cart buttons, product gallery.
+// DeskNest Studio — shared behavior: mobile menu, cart storage, add-to-cart buttons, product gallery.
 (() => {
   "use strict";
 
   // The cart lives only in this browser (see /cookies/). It holds product slugs, nothing else.
-  const KEY = "worknest_cart";
+  const KEY = "desknest_cart";
 
   const read = () => {
     try {
@@ -39,7 +39,7 @@
       write(read().filter((s) => !slugs.includes(s)));
     },
   };
-  window.WorkNestCart = cart;
+  window.DeskNestCart = cart;
 
   function updateCount() {
     const n = read().length;

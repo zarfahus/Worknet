@@ -1,4 +1,4 @@
-// WorkNest Studio — order confirmation and downloads.
+// DeskNest Studio — order confirmation and downloads.
 (() => {
   "use strict";
 
@@ -101,7 +101,7 @@
         "."
       )
     );
-    if (window.WorkNestCart) window.WorkNestCart.removeMany(order.items.map((i) => i.slug));
+    if (window.DeskNestCart) window.DeskNestCart.removeMany(order.items.map((i) => i.slug));
   }
 
   async function load() {

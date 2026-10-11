@@ -38,7 +38,7 @@
             "pages": "13"
           }
         ],
-        "file": "WorkNest-Weekly-Focus-Planner.pdf"
+        "file": "DeskNest-Weekly-Focus-Planner.pdf"
       }
     ],
     "workbooks": []
@@ -82,7 +82,7 @@
             "pages": "8"
           }
         ],
-        "file": "WorkNest-Meeting-Notes-Action-Tracker.pdf"
+        "file": "DeskNest-Meeting-Notes-Action-Tracker.pdf"
       }
     ],
     "workbooks": []
@@ -130,12 +130,12 @@
             "pages": "10"
           }
         ],
-        "file": "WorkNest-Content-Planning-Calendar.pdf"
+        "file": "DeskNest-Content-Planning-Calendar.pdf"
       }
     ],
     "workbooks": [
       {
-        "file": "WorkNest-Content-Planning-Calendar.xlsx",
+        "file": "DeskNest-Content-Planning-Calendar.xlsx",
         "sheets": [
           "Start Here",
           "90-Day Calendar",
@@ -186,7 +186,7 @@
             "pages": "13"
           }
         ],
-        "file": "WorkNest-Weekly-Focus-Planner.pdf"
+        "file": "DeskNest-Weekly-Focus-Planner.pdf"
       },
       {
         "title": "Meeting Notes & Action Tracker",
@@ -225,7 +225,7 @@
             "pages": "8"
           }
         ],
-        "file": "WorkNest-Meeting-Notes-Action-Tracker.pdf"
+        "file": "DeskNest-Meeting-Notes-Action-Tracker.pdf"
       },
       {
         "title": "Productivity Toolkit Planners",
@@ -260,12 +260,12 @@
             "pages": "8–9"
           }
         ],
-        "file": "WorkNest-Productivity-Toolkit-Planners.pdf"
+        "file": "DeskNest-Productivity-Toolkit-Planners.pdf"
       }
     ],
     "workbooks": [
       {
-        "file": "WorkNest-Productivity-Toolkit-Trackers.xlsx",
+        "file": "DeskNest-Productivity-Toolkit-Trackers.xlsx",
         "sheets": [
           "Start Here",
           "Priorities",
@@ -321,12 +321,12 @@
             "pages": "9"
           }
         ],
-        "file": "WorkNest-Small-Business-Workflow-Toolkit.pdf"
+        "file": "DeskNest-Small-Business-Workflow-Toolkit.pdf"
       }
     ],
     "workbooks": [
       {
-        "file": "WorkNest-Small-Business-Workflow-Trackers.xlsx",
+        "file": "DeskNest-Small-Business-Workflow-Trackers.xlsx",
         "sheets": [
           "Start Here",
           "Workflow Steps",
@@ -382,12 +382,12 @@
             "pages": "10"
           }
         ],
-        "file": "WorkNest-Creator-Planning-Bundle.pdf"
+        "file": "DeskNest-Creator-Planning-Bundle.pdf"
       }
     ],
     "workbooks": [
       {
-        "file": "WorkNest-Creator-Planning-Trackers.xlsx",
+        "file": "DeskNest-Creator-Planning-Trackers.xlsx",
         "sheets": [
           "Start Here",
           "Content Calendar",

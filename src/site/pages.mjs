@@ -38,7 +38,7 @@ export function faqItems(site) {
     },
     {
       q: "How can I contact support?",
-      a: `<p>Email ${mailto(site)} or call ${phoneLink(site)}. If your question is about an order, include your order reference (it starts with WN- and is shown on your order page) or the email address you used at checkout. Our mailing address is ${esc(addressLines(site).join(", "))}.</p>`,
+      a: `<p>Email ${mailto(site)} or call ${phoneLink(site)}. If your question is about an order, include your order reference (it starts with DN- and is shown on your order page) or the email address you used at checkout. Our mailing address is ${esc(addressLines(site).join(", "))}.</p>`,
     },
   ];
 }
@@ -93,7 +93,7 @@ export function home(ctx) {
       <a class="btn" href="/shop/">Browse Templates</a>
       <p class="hero-note">Printable PDFs with editable Word or spreadsheet versions. One-time purchase, from ${money(Math.min(...catalog.products.map((p) => p.price)))}.</p>
     </div>
-    <img class="hero-art" src="/assets/img/hero-pages.webp" width="1100" height="900" alt="Three WorkNest Studio template pages: a 90-day plan overview, a meeting notes page and a daily task page">
+    <img class="hero-art" src="/assets/img/hero-pages.webp" width="1100" height="900" alt="Three ${esc(site.brand)} template pages: a 90-day plan overview, a meeting notes page and a daily task page">
   </div>
 </section>
 
@@ -518,7 +518,7 @@ ${pageHeader({ title: "Contact us", intro: "Questions about a template, an order
       <div><h2>Mail</h2><address>${esc(site.brand)}<br>${addressLines(site).map(esc).join("<br>")}</address></div>
     </div>
     <h2>Help with an order</h2>
-    <p>Please include your order reference, which starts with WN- and is shown on your order page. If you don't have it, write from the email address you used at checkout. If a file won't open, looks incomplete or doesn't match its description, tell us which file and what you see, and we'll put it right. The <a href="/refunds/">Refund Policy</a> and <a href="/delivery/">Digital Delivery Policy</a> explain what happens next.</p>
+    <p>Please include your order reference, which starts with DN- and is shown on your order page. If you don't have it, write from the email address you used at checkout. If a file won't open, looks incomplete or doesn't match its description, tell us which file and what you see, and we'll put it right. The <a href="/refunds/">Refund Policy</a> and <a href="/delivery/">Digital Delivery Policy</a> explain what happens next.</p>
     <h2>Billing questions</h2>
     <p>Charges appear on card statements as ${esc(site.statementDescriptor || site.brand)}. If you don't recognize a charge or think you've been charged twice, contact us first. We can usually sort it out faster than a bank dispute.</p>
     <h2>Privacy requests</h2>

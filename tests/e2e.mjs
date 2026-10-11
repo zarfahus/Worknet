@@ -115,7 +115,7 @@ async function main() {
   await page.waitForSelector("text=Thank you — your order is confirmed");
   const sessionId = new URL(page.url()).searchParams.get("session_id");
   const orderText = await page.locator("#order-root").innerText();
-  assert.match(orderText, /WN-[A-Z0-9]{8}/);
+  assert.match(orderText, /DN-[A-Z0-9]{8}/);
   assert.match(orderText, /ja•+@example\.com/);
   assert.match(orderText, /\$19\.99 USD/);
   assert.equal(await page.locator(".cart-count").first().innerText(), "0", "purchased items leave the cart");

@@ -1,4 +1,4 @@
-"""Page definitions for every WorkNest Studio template document."""
+"""Page definitions for every DeskNest Studio template document."""
 from blocks import (Checklist, Fields, Grid, InfoBox, Lines, Matrix, Note, Page, Prompts, Row,
                     Scale, Stack, Table)
 

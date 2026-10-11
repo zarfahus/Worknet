@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Generate every WorkNest Studio product file.
+"""Generate every DeskNest Studio product file.
 
 Outputs
   products/out/files/*.pdf|docx|xlsx   the files customers download (uploaded to private R2 storage)
@@ -62,7 +62,7 @@ class Doc:
 
 DOCS = [
     Doc("wfp", "weekly-focus-planner", "Weekly Focus Planner", content.weekly_focus_planner(),
-        "WorkNest-Weekly-Focus-Planner", ["pdf", "docx"], ["Printable PDF (US Letter)", "Editable DOCX"], ["PDF", "DOCX"],
+        "DeskNest-Weekly-Focus-Planner", ["pdf", "docx"], ["Printable PDF (US Letter)", "Editable DOCX"], ["PDF", "DOCX"],
         ["Begin each week with the Weekly Plan page: set a focus, choose three priorities and list fixed "
          "appointments and deadlines.",
          "Use the Priority Tracker to rank everything competing for your time.",
@@ -71,7 +71,7 @@ DOCS = [
          "Use the Goal Tracker for a goal that spans several weeks."],
         [1, 3, 5, 12]),
     Doc("mna", "meeting-notes-action-tracker", "Meeting Notes & Action Tracker", content.meeting_notes_action_tracker(),
-        "WorkNest-Meeting-Notes-Action-Tracker", ["pdf", "docx"], ["Printable PDF (US Letter)", "Editable DOCX"],
+        "DeskNest-Meeting-Notes-Action-Tracker", ["pdf", "docx"], ["Printable PDF (US Letter)", "Editable DOCX"],
         ["PDF", "DOCX"],
         ["Send the Meeting Agenda to attendees before the meeting.",
          "Take notes on the Meeting Notes page and record decisions and action items as they happen.",
@@ -79,7 +79,7 @@ DOCS = [
          "Complete the Meeting Follow-Up page within a day of the meeting."],
         [1, 3, 4, 7]),
     Doc("cpc", "content-planning-calendar", "Content Planning Calendar", content.content_planning_calendar(),
-        "WorkNest-Content-Planning-Calendar", ["pdf"], ["Printable PDF (US Letter)", "Companion XLSX workbook"],
+        "DeskNest-Content-Planning-Calendar", ["pdf"], ["Printable PDF (US Letter)", "Companion XLSX workbook"],
         ["PDF", "XLSX"],
         ["Start with the 90-Day Plan Overview: your goal, monthly themes and channels.",
          "Plan week by week on the three 90-Day Calendar pages.",
@@ -90,7 +90,7 @@ DOCS = [
          "Prefer working digitally? The XLSX workbook has the same tools with automatic dates."],
         [1, 3, 6, 8]),
     Doc("cpt", "complete-productivity-toolkit", "Productivity Toolkit Planners", content.productivity_toolkit_planners(),
-        "WorkNest-Productivity-Toolkit-Planners", ["pdf", "docx"],
+        "DeskNest-Productivity-Toolkit-Planners", ["pdf", "docx"],
         ["Printable PDF (US Letter)", "Editable DOCX", "Companion XLSX workbook"], ["PDF", "DOCX", "XLSX"],
         ["This document holds the toolkit's additional planners. The Weekly Focus Planner and the Meeting Notes "
          "& Action Tracker are included as separate files.",
@@ -101,7 +101,7 @@ DOCS = [
          "The XLSX workbook contains spreadsheet versions of the trackers."],
         [1, 3, 5, 6]),
     Doc("sbw", "small-business-workflow-toolkit", "Small Business Workflow Toolkit",
-        content.small_business_workflow_toolkit(), "WorkNest-Small-Business-Workflow-Toolkit", ["pdf", "docx"],
+        content.small_business_workflow_toolkit(), "DeskNest-Small-Business-Workflow-Toolkit", ["pdf", "docx"],
         ["Printable PDF (US Letter)", "Editable DOCX", "Companion XLSX workbook"], ["PDF", "DOCX", "XLSX"],
         ["Pick one workflow that repeats often and describe it on the Workflow Planning Sheet.",
          "Turn important workflows into step-by-step instructions with the Process Documentation worksheet.",
@@ -110,7 +110,7 @@ DOCS = [
          "The XLSX workbook calculates the next due date of each recurring task automatically."],
         [1, 3, 5, 7]),
     Doc("cpb", "creator-planning-bundle", "Creator Planning Bundle", content.creator_planning_bundle(),
-        "WorkNest-Creator-Planning-Bundle", ["pdf", "docx"],
+        "DeskNest-Creator-Planning-Bundle", ["pdf", "docx"],
         ["Printable PDF (US Letter)", "Editable DOCX", "Companion XLSX workbook"], ["PDF", "DOCX", "XLSX"],
         ["Plan each month on a Content Calendar page.",
          "Keep the Content Idea Planner as your idea bank.",
@@ -122,15 +122,15 @@ DOCS = [
 ]
 
 WORKBOOKS = [
-    ("cpc-xlsx", "WorkNest-Content-Planning-Calendar.xlsx", workbooks.content_planning_calendar,
+    ("cpc-xlsx", "DeskNest-Content-Planning-Calendar.xlsx", workbooks.content_planning_calendar,
      "Editable spreadsheet: 90-day calendar with automatic dates, idea list, publishing tracker, campaign plan "
      "and review sheet"),
-    ("cpt-xlsx", "WorkNest-Productivity-Toolkit-Trackers.xlsx", workbooks.productivity_toolkit_trackers,
+    ("cpt-xlsx", "DeskNest-Productivity-Toolkit-Trackers.xlsx", workbooks.productivity_toolkit_trackers,
      "Editable spreadsheet: priorities, project tasks, action items, decisions, weekly review log and ideal week"),
-    ("sbw-xlsx", "WorkNest-Small-Business-Workflow-Trackers.xlsx", workbooks.small_business_workflow_trackers,
+    ("sbw-xlsx", "DeskNest-Small-Business-Workflow-Trackers.xlsx", workbooks.small_business_workflow_trackers,
      "Editable spreadsheet: workflow steps, recurring tasks with next-due dates, responsibilities, weekly "
      "operations, task review and change log"),
-    ("cpb-xlsx", "WorkNest-Creator-Planning-Trackers.xlsx", workbooks.creator_planning_trackers,
+    ("cpb-xlsx", "DeskNest-Creator-Planning-Trackers.xlsx", workbooks.creator_planning_trackers,
      "Editable spreadsheet: content calendar, idea bank, production checklist, publishing tracker, campaigns "
      "and performance log"),
 ]
@@ -210,7 +210,7 @@ def card_image(slug, pages, tmp):
 def readme_text(slug, files):
     p = CATALOG[slug]
     lines = [
-        f"{p['name']} — WorkNest Studio", "=" * (len(p["name"]) + 18), "",
+        f"{p['name']} — DeskNest Studio", "=" * (len(p["name"]) + 18), "",
         p["description"], "", "Files in this download:",
     ]
     lines += [f"  - {f['filename']}: {f['label']}" for f in files]
@@ -227,7 +227,7 @@ def readme_text(slug, files):
         f"  If a file will not open, is incomplete or does not match its description, email {SITE['email']}",
         "  with your order reference.",
         "", "These templates are organizational tools, not legal, financial, accounting, tax, investment, medical",
-        "or other professional advice.", "", f"(c) {render.YEAR} WorkNest Studio",
+        "or other professional advice.", "", f"(c) {render.YEAR} DeskNest Studio",
     ]
     return "\r\n".join(lines) + "\r\n"
 
@@ -238,7 +238,7 @@ def main():
             shutil.rmtree(d)
         os.makedirs(d, exist_ok=True)
     os.makedirs(os.path.join(ASSETS, "brand"), exist_ok=True)
-    tmp = tempfile.mkdtemp(prefix="worknest-")
+    tmp = tempfile.mkdtemp(prefix="desknest-")
     logo = os.path.join(tmp, "logo.png")
     render.logo_png(logo)
     render.logo_png(os.path.join(ASSETS, "brand", "apple-touch-icon.png"), 180)
@@ -277,7 +277,7 @@ def main():
 
     products = {}
     for slug, fids in PRODUCT_FILES.items():
-        zip_name = f"WorkNest-{''.join(w.capitalize() for w in slug.split('-'))}.zip"
+        zip_name = f"DeskNest-{''.join(w.capitalize() for w in slug.split('-'))}.zip"
         zip_path = os.path.join(ZIPS_DIR, zip_name)
         with zipfile.ZipFile(zip_path, "w", zipfile.ZIP_DEFLATED) as zf:
             folder = zip_name[:-4]

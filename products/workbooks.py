@@ -1,4 +1,4 @@
-"""Editable XLSX workbooks for WorkNest Studio products (openpyxl)."""
+"""Editable XLSX workbooks for DeskNest Studio products (openpyxl)."""
 import datetime as dt
 
 from openpyxl import Workbook
@@ -164,7 +164,7 @@ def tracker(ws, cols, n_rows, header_row=4, status_col=None, done=("Done",), wai
     ws.page_setup.fitToWidth = 1
     ws.page_setup.fitToHeight = 0
     ws.sheet_properties.pageSetUpPr.fitToPage = True
-    ws.oddFooter.left.text = f"WorkNest Studio · {ws.title}"
+    ws.oddFooter.left.text = f"DeskNest Studio · {ws.title}"
     ws.oddFooter.right.text = "Page &P of &N"
     return first, last, full
 
@@ -175,7 +175,7 @@ def start_here(wb, title, description, sheets, tips):
     ws.sheet_view.showGridLines = False
     ws.column_dimensions["A"].width = 30
     ws.column_dimensions["B"].width = 95
-    ws["A1"] = "WorkNest Studio"
+    ws["A1"] = "DeskNest Studio"
     ws["A1"].font = Font(bold=True, color=NAVY, size=11)
     ws["A2"] = title
     ws["A2"].font = Font(bold=True, color=NAVY, size=20)
@@ -235,7 +235,7 @@ def start_here(wb, title, description, sheets, tips):
     c.alignment = Alignment(wrap_text=True)
     ws.row_dimensions[r].height = 26
     r += 1
-    ws.cell(row=r, column=2, value=f"© {YEAR} WorkNest Studio").font = Font(size=9, color=MUTED)
+    ws.cell(row=r, column=2, value=f"© {YEAR} DeskNest Studio").font = Font(size=9, color=MUTED)
     ws.sheet_properties.tabColor = NAVY
 
 
@@ -247,9 +247,9 @@ def new_sheet(wb, title, subtitle):
 
 
 def finish(wb, path, title):
-    wb.properties.creator = "WorkNest Studio"
-    wb.properties.title = f"{title} — WorkNest Studio"
-    wb.properties.lastModifiedBy = "WorkNest Studio"
+    wb.properties.creator = "DeskNest Studio"
+    wb.properties.title = f"{title} — DeskNest Studio"
+    wb.properties.lastModifiedBy = "DeskNest Studio"
     wb.active = 0
     wb.save(path)
 

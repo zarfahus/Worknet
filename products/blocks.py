@@ -1,4 +1,4 @@
-"""Layout blocks for WorkNest Studio templates.
+"""Layout blocks for DeskNest Studio templates.
 
 Every block knows how to draw itself on a PDF page (reportlab) and how to
 render an editable equivalent into a Word document (python-docx). Pages are
