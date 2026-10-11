@@ -1,0 +1,220 @@
+{
+  "currency": "USD",
+  "products": [
+    {
+      "slug": "weekly-focus-planner",
+      "name": "Weekly Focus Planner",
+      "price": 1299,
+      "description": "An undated productivity planning pack designed to help individuals organize their week, identify daily priorities, track habits, and review progress. Instant digital delivery. No physical item will be shipped.",
+      "short": "An undated printable planner: a weekly plan, a daily priorities page, a monthly habit tracker and a weekly review.",
+      "format": "Printable PDF in A4 and US Letter",
+      "includes": [
+        "Printable weekly planner (PDF)",
+        "Daily priorities and task-list worksheet",
+        "Habit tracker",
+        "Weekly review worksheet",
+        "Instructions for printing and using the pages"
+      ],
+      "files": [
+        {
+          "name": "ClearWeek-Weekly-Focus-Planner-A4.pdf",
+          "type": "PDF",
+          "detail": "7 pages, A4 (210 × 297 mm)"
+        },
+        {
+          "name": "ClearWeek-Weekly-Focus-Planner-US-Letter.pdf",
+          "type": "PDF",
+          "detail": "7 pages, US Letter (8.5 × 11 in)"
+        }
+      ],
+      "goodFor": [
+        "You like planning on paper, or writing on PDFs with a tablet and stylus.",
+        "You want a short weekly routine: plan on Monday, three priorities a day, review on Friday.",
+        "You'd rather print what you need than commit to a dated planner."
+      ],
+      "notFor": [
+        "You want reminders, notifications or a calendar that syncs. These are printable pages, not an app.",
+        "You need to track projects with several people. The Project Workflow Bundle adds spreadsheets for that."
+      ],
+      "seo": {
+        "title": "Weekly Focus Planner: Undated Printable Weekly Planner (PDF)",
+        "description": "Undated printable weekly planner PDF with a daily priorities and task list, monthly habit tracker and weekly review. A4 and US Letter. $12.99 USD, one-time payment, digital download."
+      },
+      "pages": [
+        [
+          "Cover and contents",
+          "What's in the planner."
+        ],
+        [
+          "How to use and print this planner",
+          "A simple weekly routine, what to print and how many copies, and printing tips."
+        ],
+        [
+          "Weekly plan",
+          "Your focus, top three outcomes, deadlines and a box for each day of the week."
+        ],
+        [
+          "Daily priorities and task list",
+          "Three priorities, a task list with checkboxes, an hour-by-hour schedule and an end-of-day note."
+        ],
+        [
+          "Habit tracker",
+          "Up to 12 habits across a month of 31 days, with a goal and a total for each (landscape page)."
+        ],
+        [
+          "Weekly review",
+          "What got done, what slipped, wins, lessons, three 1-to-5 ratings and next week's top three."
+        ],
+        [
+          "Notes",
+          "A dot-grid page for notes, lists or sketches."
+        ]
+      ]
+    },
+    {
+      "slug": "project-workflow-bundle",
+      "name": "Project Workflow Bundle",
+      "price": 1999,
+      "description": "A practical digital productivity bundle combining weekly planning, project tracking, monthly organization, and content-calendar templates in one downloadable package. Designed for individuals, freelancers, and small teams who need a simple organizational system. Instant digital delivery. No physical item will be shipped.",
+      "short": "Everything in the Weekly Focus Planner, plus an editable project tracker, a content calendar, monthly and timeline printables and a setup guide.",
+      "format": "PDF (A4 and US Letter) and editable XLSX spreadsheets",
+      "contains": [
+        "weekly-focus-planner"
+      ],
+      "includes": [
+        "Everything in the Weekly Focus Planner",
+        "Editable project-tracking spreadsheet (XLSX)",
+        "Monthly overview and 12-week project timeline",
+        "Editable content calendar (XLSX)",
+        "Reusable weekly task-management checklist",
+        "PDF setup guide for every file"
+      ],
+      "files": [
+        {
+          "name": "ClearWeek-Weekly-Focus-Planner-A4.pdf",
+          "type": "PDF",
+          "detail": "The complete Weekly Focus Planner, A4"
+        },
+        {
+          "name": "ClearWeek-Weekly-Focus-Planner-US-Letter.pdf",
+          "type": "PDF",
+          "detail": "The complete Weekly Focus Planner, US Letter"
+        },
+        {
+          "name": "ClearWeek-Project-Printables-A4.pdf",
+          "type": "PDF",
+          "detail": "Monthly overview, 12-week project timeline and weekly checklist, A4"
+        },
+        {
+          "name": "ClearWeek-Project-Printables-US-Letter.pdf",
+          "type": "PDF",
+          "detail": "The same printables, US Letter"
+        },
+        {
+          "name": "ClearWeek-Project-Tracker.xlsx",
+          "type": "XLSX",
+          "detail": "Projects, tasks, timeline, monthly overview and weekly checklist"
+        },
+        {
+          "name": "ClearWeek-Content-Calendar.xlsx",
+          "type": "XLSX",
+          "detail": "Content calendar, month view and ideas list"
+        },
+        {
+          "name": "ClearWeek-Bundle-Setup-Guide.pdf",
+          "type": "PDF",
+          "detail": "How each file works, which apps to use, troubleshooting"
+        }
+      ],
+      "printables": [
+        [
+          "Monthly overview",
+          "An undated month grid with space for the month's projects, key deadlines and notes. Landscape."
+        ],
+        [
+          "Project timeline (12 weeks)",
+          "Rows for tasks and milestones with owner, start and due dates, and 12 week columns to shade in. Landscape."
+        ],
+        [
+          "Weekly task-management checklist",
+          "Fifteen steps in five groups (capture, clarify, organize, plan, review) with tick boxes for six weeks, so one printout lasts six weeks."
+        ]
+      ],
+      "spreadsheets": [
+        {
+          "name": "Project tracker",
+          "file": "ClearWeek-Project-Tracker.xlsx",
+          "sheets": [
+            [
+              "Start here",
+              "Short instructions inside the file."
+            ],
+            [
+              "Projects",
+              "Up to 30 projects with owner, status, priority, start and due dates. Calculates task counts, progress, days left and a health flag (on track, due soon, overdue, done)."
+            ],
+            [
+              "Tasks",
+              "Up to 300 tasks, each linked to a project from a drop-down list, with owner, status, priority, dates and an overdue flag."
+            ],
+            [
+              "Timeline",
+              "A 26-week bar chart built from each project's start and due dates. The current week is shaded."
+            ],
+            [
+              "Monthly overview",
+              "A calendar for any month showing open tasks due each day and the first project due, plus monthly counts."
+            ],
+            [
+              "Weekly checklist",
+              "The 15-step weekly routine with a column per week to tick off."
+            ],
+            [
+              "Lists",
+              "The options in the drop-down lists. Add your team's names here."
+            ]
+          ]
+        },
+        {
+          "name": "Content calendar",
+          "file": "ClearWeek-Content-Calendar.xlsx",
+          "sheets": [
+            [
+              "Start here",
+              "Short instructions inside the file."
+            ],
+            [
+              "Calendar",
+              "Up to 400 planned items with publish date, channel, title, format, status, owner, draft due date and link. Flags past dates, late drafts and items due within 3 days."
+            ],
+            [
+              "Month view",
+              "A calendar for any month showing what's planned each day."
+            ],
+            [
+              "Ideas",
+              "A list for ideas that don't have a date yet."
+            ],
+            [
+              "Lists",
+              "Channels, formats, statuses and people for the drop-down lists."
+            ]
+          ]
+        }
+      ],
+      "goodFor": [
+        "Freelancers juggling several clients or projects at once.",
+        "Small teams that want one shared tracker without paying for project-management software.",
+        "Anyone planning a regular newsletter, blog or social media schedule."
+      ],
+      "notFor": [
+        "Teams that need real-time collaboration, permissions or automatic reminders. A dedicated project-management app will suit you better.",
+        "People who only want to plan their own week on paper. The Weekly Focus Planner on its own costs less."
+      ],
+      "seo": {
+        "title": "Project Workflow Bundle: Project Tracker, Content Calendar & Weekly Planner",
+        "description": "Editable project tracker and content calendar spreadsheets (XLSX), monthly overview and 12-week timeline printables, a task checklist and the full Weekly Focus Planner. $19.99 USD, one-time payment."
+      }
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "name": "clearweek-studio",
+  "version": "1.0.0",
+  "private": true,
+  "description": "ClearWeek Studio storefront (evadeclaw.com): static site on Cloudflare Pages",
+  "type": "module",
+  "scripts": {
+    "build": "node scripts/build.mjs",
+    "check": "node scripts/build.mjs && node scripts/check.mjs",
+    "preview": "node scripts/build.mjs && wrangler pages dev dist",
+    "deploy": "node scripts/deploy.mjs"
+  },
+  "devDependencies": {
+    "wrangler": "4.149.0"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}

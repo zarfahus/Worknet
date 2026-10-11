@@ -1,0 +1,72 @@
+{
+  "pages": {
+    "weekly-focus-planner": 7,
+    "printables": 4
+  },
+  "previews": {
+    "weekly-focus-planner": [
+      {
+        "src": "/assets/previews/weekly-focus-planner-1.webp",
+        "width": 902,
+        "height": 1275,
+        "caption": "Weekly plan: focus, top three outcomes, deadlines and a box for each day"
+      },
+      {
+        "src": "/assets/previews/weekly-focus-planner-2.webp",
+        "width": 902,
+        "height": 1275,
+        "caption": "Daily priorities and task list, with an hour-by-hour schedule"
+      },
+      {
+        "src": "/assets/previews/weekly-focus-planner-3.webp",
+        "width": 1102,
+        "height": 779,
+        "caption": "Habit tracker for up to 12 habits across a month"
+      },
+      {
+        "src": "/assets/previews/weekly-focus-planner-4.webp",
+        "width": 902,
+        "height": 1275,
+        "caption": "Weekly review: what got done, what slipped, ratings and next week's top three"
+      },
+      {
+        "src": "/assets/previews/weekly-focus-planner-5.webp",
+        "width": 902,
+        "height": 1275,
+        "caption": "How to use and print the planner"
+      }
+    ],
+    "project-workflow-bundle": [
+      {
+        "src": "/assets/previews/project-workflow-bundle-1.webp",
+        "width": 1102,
+        "height": 779,
+        "caption": "Monthly overview (printable)"
+      },
+      {
+        "src": "/assets/previews/project-workflow-bundle-2.webp",
+        "width": 1102,
+        "height": 779,
+        "caption": "12-week project timeline (printable)"
+      },
+      {
+        "src": "/assets/previews/project-workflow-bundle-3.webp",
+        "width": 902,
+        "height": 1275,
+        "caption": "Weekly task-management checklist (printable)"
+      },
+      {
+        "src": "/assets/previews/project-workflow-bundle-4.webp",
+        "width": 902,
+        "height": 1275,
+        "caption": "Weekly plan from the included Weekly Focus Planner"
+      },
+      {
+        "src": "/assets/previews/project-workflow-bundle-5.webp",
+        "width": 902,
+        "height": 1275,
+        "caption": "Daily priorities page from the included Weekly Focus Planner"
+      }
+    ]
+  }
+}

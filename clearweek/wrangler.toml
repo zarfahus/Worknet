@@ -1,0 +1,5 @@
+# Cloudflare Pages project for ClearWeek Studio (evadeclaw.com).
+# Separate from every other project in this repository. Static site only: no Functions.
+name = "clearweek-studio"
+pages_build_output_dir = "./dist"
+compatibility_date = "2026-09-01"
